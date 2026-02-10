@@ -1,0 +1,123 @@
+{
+  "schema_version": "weekly-mechanism.v1",
+  "week": "2026-W06",
+  "generated_at": "2026-02-07T03:15:00+00:00",
+  "source_run_id": "manual-curation-2026-W06",
+  "coverage": {
+    "sessions_total": 6,
+    "sessions_with_mechanism": 6
+  },
+  "what_happened": [
+    "本周出现了明显的“高价值目标 + 任务边界持续扩张”组合：目标方向正确，但执行边界在中后段反复变化，导致回合数被放大。",
+    "长会话并不一定失败，但一旦缺少阶段性收敛点，会从“问题求解”演变为“问题重定义”，效率明显下降。",
+    "短会话中的 partial 主要不是能力不足，而是执行环境与目标产物之间存在隐含前提不一致（例如配置路径、部署上下文、运行约束）。",
+    "“分析项目/重新开始”类入口在周内频繁出现，说明你在高强度切换任务时，常以重新 framing 取代增量推进。"
+  ],
+  "why_patterns": [
+    {
+      "pattern": "scope-creep-after-high-ambition-start",
+      "root_cause": "初始目标定义很强，但缺少显式“本轮完成定义（Definition of Done）”，导致中后段把新需求并入同一会话。",
+      "confidence": 0.83,
+      "evidence": [
+        {
+          "session_id": "e866da87-b20c-45de-93e2-9e176098df43",
+          "turn_id": 1,
+          "snippet": "DMCC 爬虫任务简报...全部公司数据（A-Z，约1000+页）..."
+        },
+        {
+          "session_id": "0e5519e3-1977-439f-9013-dc235ee63b43",
+          "turn_id": 1,
+          "snippet": "分析这个项目"
+        }
+      ]
+    },
+    {
+      "pattern": "reframing-loop-in-long-sessions",
+      "root_cause": "当会话过长时，你会通过“重新定义问题”来恢复控制感，但这会牺牲已形成的中间结论与上下文连续性。",
+      "confidence": 0.76,
+      "evidence": [
+        {
+          "session_id": "17ee21f9-6802-41a1-881a-e41bd62e0187",
+          "turn_id": 1,
+          "snippet": "...官方价目表链接汇总... 重新"
+        },
+        {
+          "session_id": "0e5519e3-1977-439f-9013-dc235ee63b43",
+          "turn_id": 1,
+          "snippet": "分析这个项目"
+        }
+      ]
+    },
+    {
+      "pattern": "execution-context-mismatch",
+      "root_cause": "部分 partial 并非策略错误，而是执行前置条件未显式确认（环境、目录、可运行性、交付边界）。",
+      "confidence": 0.71,
+      "evidence": [
+        {
+          "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55",
+          "turn_id": 1,
+          "snippet": "项目结构只需要3个文件... 创建目录... 创建.env..."
+        },
+        {
+          "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a",
+          "turn_id": 1,
+          "snippet": "写脚本上传 Dify 知识库... 每次只能索引两个... 已传不要重复..."
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "name": "single-session-contract",
+      "trigger": "任务描述包含多个目标或明显大范围词（例如全部、全量、从零到一）",
+      "action": "在首轮强制输出并确认 4 行契约：目标、边界、不做项、完成定义；未确认前不进入实现。",
+      "expected_gain": "减少中后段范围蔓延与返工，提升首轮正确率与会话收敛速度。",
+      "validation_window": "next-7-days",
+      "priority": "high"
+    },
+    {
+      "name": "long-session-checkpoint",
+      "trigger": "会话达到第8轮或出现“重新/换个方式/再来一次”表达",
+      "action": "执行 checkpoint：先总结已确认结论，再拆出新线程处理新增目标，不在原线程继续叠加。",
+      "expected_gain": "避免问题重定义循环，保留有效上下文资产。",
+      "validation_window": "next-7-days",
+      "priority": "high"
+    },
+    {
+      "name": "pre-execution-context-handshake",
+      "trigger": "涉及脚本执行、部署、配置或外部 API 的任务",
+      "action": "执行前固定确认 5 项：运行目录、依赖版本、鉴权来源、幂等策略、验收命令。",
+      "expected_gain": "降低 partial/反复修补，提升一次交付可运行率。",
+      "validation_window": "next-14-days",
+      "priority": "high"
+    },
+    {
+      "name": "knowledge-compounding-loop",
+      "trigger": "同类任务一周内重复出现两次以上",
+      "action": "把成功会话沉淀为可复用模板（开场模板+检查清单+验收命令），下次默认复用并只改变量参数。",
+      "expected_gain": "形成复利：知识可复用、边际成本下降、模式可迁移。",
+      "validation_window": "next-14-days",
+      "priority": "medium"
+    }
+  ],
+  "compounding_moves": [
+    {
+      "from_pattern": "single-session-contract",
+      "to_domain": "legal-research and engineering-execution",
+      "how": "把同一套契约模板同时应用到法规研究与工程执行任务，统一开场质量与收敛策略。",
+      "confidence": 0.78
+    },
+    {
+      "from_pattern": "pre-execution-context-handshake",
+      "to_domain": "automation and integration tasks",
+      "how": "把5项前置确认固化到脚本任务模板，所有集成任务先过握手清单。",
+      "confidence": 0.74
+    }
+  ],
+  "guardrails": [
+    "所有根因判断必须可回溯到具体文本证据。",
+    "本周建议优先关注机制改法，不把统计指标当作目标本身。",
+    "若结论无证据，标记为待验证假设，不进入高优先级行动。"
+  ],
+  "next_review_date": "2026-02-14"
+}

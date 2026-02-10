@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-02-04T08:19:31.939Z",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519797+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W06",
+  "what_happened": [
+    "Session captured with 20 turns and source=codex"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a",
+          "snippet": "帮我写一个脚本把这些文档用DIfy知识库API传到知识库中，分段模式递归分割适合法律文本的层级结构分段长度1000保留足够的法律条款上下文重叠长度300保持条款间的连贯性清理规则启用移除多余空白和格式符。每次只能索引两个，成功之后再传下一批。已经传上去的不要重复传。你有需要澄清的问题吗？",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

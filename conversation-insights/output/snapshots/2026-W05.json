@@ -1,0 +1,60 @@
+{
+  "snapshot_date": "2026-02-07T16:06:01.362330",
+  "week": "2026-W05",
+  "totals": {
+    "conversations": 600,
+    "turns": 7228,
+    "corrections": 168
+  },
+  "sources": {
+    "codex": 8,
+    "claude_code": 31,
+    "claude_web": 7,
+    "chatgpt": 554
+  },
+  "outcomes": {
+    "resolved": 293,
+    "partial": 145,
+    "abandoned": 0,
+    "exploratory": 162
+  },
+  "metrics": {
+    "avg_prompt_score": 38.9,
+    "avg_difficulty": 2.9,
+    "avg_turns": 12.0,
+    "correction_density_pct": 2.32,
+    "resolution_rate_pct": 48.8
+  },
+  "cognitive_patterns": {
+    "scope_creep": 58,
+    "perfectionism": 12,
+    "anchoring": 0,
+    "decision_fatigue": 0,
+    "sunk_cost": 0,
+    "confirmation_bias": 0
+  },
+  "top_domains": {
+    "ai-ml": 251,
+    "business": 247,
+    "other": 244,
+    "backend": 153,
+    "creative": 99,
+    "programming": 89,
+    "research": 54,
+    "writing": 52,
+    "legal": 45,
+    "education": 36
+  },
+  "top_task_types": {
+    "research": 139,
+    "learning": 94,
+    "new-feature": 81,
+    "other": 64,
+    "debugging": 55,
+    "documentation": 44,
+    "data-analysis": 33,
+    "brainstorming": 32,
+    "configuration": 25,
+    "design": 21
+  }
+}

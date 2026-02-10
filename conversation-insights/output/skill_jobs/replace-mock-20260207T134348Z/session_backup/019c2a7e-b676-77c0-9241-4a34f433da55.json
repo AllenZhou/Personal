@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-02-04T21:11:13.270Z",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519794+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W06",
+  "what_happened": [
+    "Session captured with 3 turns and source=codex"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55",
+          "snippet": "项目结构 wecom-dify-bot/ ├── Dockerfile ├── docker-compose.yml └── .env 只需要这3个文件！ 1. 创建项目目录 bashmkdir -p ~/wecom-dify-bot cd ~/wecom-dify-bot 2. 创建 .env 文件 bashnano .env env# 企业微信配置 CO",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

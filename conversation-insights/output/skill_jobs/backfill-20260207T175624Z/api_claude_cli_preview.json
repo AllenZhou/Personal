@@ -1,0 +1,10 @@
+{
+  "dry_run": true,
+  "generated_at": "2026-02-07T17:56:25.062426+00:00",
+  "model": "sonnet",
+  "note": "API execution preview. Non-dry-run requires valid provider credentials.",
+  "provider": "claude_cli",
+  "run_id": "backfill-20260207T175624Z",
+  "schema_version": "diagnose-api-preview.v1",
+  "session_count": 550
+}

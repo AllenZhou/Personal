@@ -1,0 +1,19 @@
+{
+  "dry_run": false,
+  "generated_at": "2026-02-10T09:01:17.422814+00:00",
+  "model": "sonnet",
+  "note": "Incremental mechanism inference preview.",
+  "period_id": "rolling_all-time",
+  "provider": "claude_cli",
+  "run_id": "incremental-rolling_all-time",
+  "schema_version": "diagnose-incremental-preview.v1",
+  "sessions_with_mechanism": 139,
+  "skill_files": [
+    "diagnose-incremental.md",
+    "analyze-behavior.md",
+    "analyze-attribution.md",
+    "analyze-mental.md",
+    "extract-pattern.md",
+    "coach.md"
+  ]
+}

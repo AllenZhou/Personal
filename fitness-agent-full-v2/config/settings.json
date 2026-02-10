@@ -1,0 +1,7 @@
+{
+  "lookback_sessions": 2,
+  "lookback_days_for_variant_budget": 7,
+  "variant_budget_per_session": 1,
+  "variant_budget_per_week": 2,
+  "default_stage": 1
+}

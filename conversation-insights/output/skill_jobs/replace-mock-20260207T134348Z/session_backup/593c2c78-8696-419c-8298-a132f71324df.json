@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-01-28T17:19:20.168865+00:00",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519839+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "593c2c78-8696-419c-8298-a132f71324df",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W05",
+  "what_happened": [
+    "Session captured with 2 turns and source=claude_web"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "593c2c78-8696-419c-8298-a132f71324df",
+          "snippet": "Claude code自动运行的代码是在虚拟机还是在本地运行",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "platform_usage": {
+    "primary_platform": "chatgpt",
+    "platform_breakdown": {
+      "chatgpt": {
+        "percentage": 98.6,
+        "count": 554,
+        "top_models": {
+          "gpt-4o": 234,
+          "gpt-5-2": 73,
+          "gpt-5": 55
+        }
+      },
+      "claude_web": {
+        "percentage": 1.2,
+        "count": 7,
+        "top_models": {
+          "claude": 7
+        }
+      },
+      "claude_code": {
+        "percentage": 0.2,
+        "count": 1,
+        "top_models": {
+          "unknown": 1
+        }
+      }
+    }
+  },
+  "language_preferences": {
+    "primary": "zh",
+    "distribution": {
+      "zh": 80.7,
+      "en": 16.5,
+      "mixed": 2.8
+    }
+  },
+  "active_hours": {
+    "peak_hours": [
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "peak_days": [
+      "Thu",
+      "Wed",
+      "Fri"
+    ],
+    "weekday_vs_weekend": {
+      "weekday": 432,
+      "weekend": 130
+    }
+  },
+  "technical_profile": {
+    "expertise_areas": {
+      "strong": [
+        "ecommerce"
+      ],
+      "developing": [
+        "other",
+        "business",
+        "marketing",
+        "research",
+        "writing",
+        "creative",
+        "education",
+        "ai-ml",
+        "productivity",
+        "health",
+        "automotive",
+        "immigration",
+        "real-estate",
+        "finance",
+        "legal",
+        "database",
+        "food",
+        "backend",
+        "design"
+      ],
+      "exploring": []
+    },
+    "top_domains": [
+      "other",
+      "business",
+      "marketing",
+      "research",
+      "writing",
+      "creative",
+      "education",
+      "ai-ml",
+      "productivity",
+      "health"
+    ],
+    "common_task_types": {
+      "research": 224,
+      "other": 139,
+      "writing": 86,
+      "learning": 50,
+      "brainstorming": 46
+    }
+  },
+  "tool_patterns": {
+    "frequently_used": [
+      "gpt_action",
+      "file_search",
+      "canvas",
+      "memory",
+      "Bash",
+      "Read",
+      "file_browser"
+    ],
+    "underused": [
+      "plugin:thegeneralmind_com",
+      "plugin:www_veed_io",
+      "plugin:video_ai_invideo_io",
+      "deep_research",
+      "plugin:gpt_promptperfect_xyz"
+    ],
+    "total_tool_uses": 448,
+    "tool_success_rates": {
+      "Bash": 95.5,
+      "Write": 80.0,
+      "Edit": 100.0,
+      "TodoWrite": 100.0,
+      "Read": 100.0,
+      "Grep": 100.0,
+      "TaskOutput": 100.0
+    }
+  },
+  "collaboration_style": {
+    "avg_prompt_length": 26.2,
+    "avg_turns_per_conversation": 7.2,
+    "style_indicators": [
+      "moderate"
+    ],
+    "correction_distribution": {
+      "scope": 102,
+      "factual": 21,
+      "approach": 15,
+      "style": 5
+    },
+    "outcome_distribution": {
+      "resolved": 513,
+      "partial": 24,
+      "exploratory": 17,
+      "abandoned": 8
+    }
+  },
+  "pain_points": {
+    "cognitive_patterns": {
+      "direct-query": 113,
+      "topic-jumping": 74,
+      "progressive-deepening": 46,
+      "role-setting": 36,
+      "iterative-refinement": 31
+    },
+    "correction_reasons": {
+      "scope_change": 20,
+      "style_preference": 10,
+      "user_changed_mind": 3,
+      "ai_error": 1
+    }
+  },
+  "conversation_count": 562,
+  "generated_at": "2026-02-06T11:04:39.787836+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "dry_run": true,
+  "generated_at": "2026-02-10T06:42:57.039443+00:00",
+  "model": "sonnet",
+  "note": "Incremental mechanism inference preview.",
+  "period_id": "2026-01-11_to_2026-02-10",
+  "provider": "claude_cli",
+  "run_id": "incremental-2026-01-11_to_2026-02-10",
+  "schema_version": "diagnose-incremental-preview.v1",
+  "sessions_with_mechanism": 96
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "session",
+    "exercises",
+    "meta"
+  ],
+  "properties": {
+    "session": {
+      "type": "object",
+      "required": [
+        "date",
+        "type",
+        "mode",
+        "rationale"
+      ],
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "Normal",
+            "Deload"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "exercises": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "order",
+          "name",
+          "pattern",
+          "equipment",
+          "sets",
+          "reps_or_time",
+          "intensity",
+          "risk_tags",
+          "variant_tag"
+        ],
+        "properties": {
+          "order": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "pattern": {
+            "type": "string",
+            "enum": [
+              "Push",
+              "Pull",
+              "Hinge",
+              "Lunge",
+              "Core",
+              "Cardio"
+            ]
+          },
+          "equipment": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sets": {
+            "type": "integer"
+          },
+          "reps_or_time": {
+            "type": "string"
+          },
+          "intensity": {
+            "type": "string"
+          },
+          "rest_sec": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "risk_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "variant_tag": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "new_variant_count",
+        "weekly_new_variant_count",
+        "session_key"
+      ],
+      "properties": {
+        "new_variant_count": {
+          "type": "integer"
+        },
+        "weekly_new_variant_count": {
+          "type": "integer"
+        },
+        "session_key": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

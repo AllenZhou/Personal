@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-01-24T11:34:04.745464+00:00",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519889+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "6974adfc-4d78-8330-9d1d-7a03946c0398",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W04",
+  "what_happened": [
+    "Session captured with 6 turns and source=chatgpt"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "6974adfc-4d78-8330-9d1d-7a03946c0398",
+          "snippet": "我需要一个提示词，用来设计一个学习陪跑，用提示词工程最新的技术优化我下一条给你提示词",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coverage": {
+    "sessions_total": 1991,
+    "sessions_with_mechanism": 24
+  },
+  "generated_at": "2026-02-10T12:30:00Z",
+  "guardrails": [
+    "Every root-cause hypothesis must include concrete evidence.",
+    "Do not infer psychological state without textual support."
+  ],
+  "period_id": "rolling_all-time",
+  "reports": [
+    {
+      "conversations_analyzed": 11,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：强制“澄清→定制”替代“直接输出”，可阻断百科模板成为首轮默认。",
+        "证据簇：11 条带“单轮会话/需求过短”标签的会话（如 690c5df4、6912c92c、691c6f34）都缺少用途或预算提示→回答泛化。",
+        "动作：首轮执行 3 个澄清槽位（用途、目标、限制）后再作答；验证窗：未来 2 周对比首轮停留率与补问率。"
+      ],
+      "dimension": "需求澄清流程",
+      "key_insights": "大量单轮对话卡在百科式输出来自首轮未锁定用途/约束，导致助手默认广撒信息。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - rolling_all-time - 需求澄清流程"
+    },
+    {
+      "conversations_analyzed": 4,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：若能在检测到话题断点时插入“是否新任务”提示，助手可重置上下文策略。",
+        "证据簇：4 条“意图跳转/多主题切换”会话（690dd4ff、69281e1f、6929beb6、691db960）都在 turn_i 给出新需求却沿旧轨回答。",
+        "动作：部署话题切换检查并要求助手复述用户新任务后再答；验证窗：滚动 2 周监控新任务确认率。"
+      ],
+      "dimension": "任务切换感知",
+      "key_insights": "跨主题对话没有显式切换提示，系统持续沿旧任务执行，错过用户新意图。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - rolling_all-time - 任务切换感知"
+    },
+    {
+      "conversations_analyzed": 2,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：先提示“需实时验证”再回答，可避免用户将旧数据视为权威结果。",
+        "证据簇：2 条高风控场景（690c4af1 的阿联酋监管、69201052 的链家费率）都直接返回旧模板。",
+        "动作：对法律/价格关键词自动插入验证提示并引用来源；验证窗：下月追踪此类会话的验证提示覆盖率。"
+      ],
+      "dimension": "高风险信息验证",
+      "key_insights": "涉及监管或费用标准的提问未触发实时核验提醒，放大错误响应风险。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - rolling_all-time - 高风险信息验证"
+    },
+    {
+      "conversations_analyzed": 3,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：先确认所需粒度并提供可选深度，可把满意终止转化为多轮共创。",
+        "证据簇：3 条“信息密度失配/单轮终止”会话（6911a826、6914b655、692c46a8）都在得到关键数字后立即离开。",
+        "动作：首轮给出简答+追问“是否需更多细节”并记录偏好；验证窗：未来 2 周跟踪二轮续问率。"
+      ],
+      "dimension": "信息密度匹配",
+      "key_insights": "用户以极简问句或获取单一数字为主，助手却输出长篇综述，导致单轮即终止。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - rolling_all-time - 信息密度匹配"
+    }
+  ],
+  "schema_version": "incremental-mechanism.v1",
+  "source_run_id": "incremental-rolling_all-time"
+}

@@ -1,0 +1,8 @@
+id: PT-006
+name: New Feature 模板
+category: new-feature
+extracted_from: 67a495c9-e8a4-8002-8a9e-191a5c089935
+effectiveness_score: 84.0
+template: |
+  为我创建个人网页，需要全部包含在一个文件中。先就您想知道的内容问我 3 个问题。
+variables:

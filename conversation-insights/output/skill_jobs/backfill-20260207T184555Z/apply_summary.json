@@ -1,0 +1,10 @@
+{
+  "applied_at": "2026-02-07T20:49:51.321263+00:00",
+  "created": 42,
+  "records_invalid": 111,
+  "records_valid": 50,
+  "result_file": "/Users/allenzhou/MIRISE/agents/conversation-insights/output/skill_jobs/backfill-20260207T184555Z/api_claude_cli_results.json",
+  "run_id": "backfill-20260207T184555Z",
+  "schema_version": "diagnose-apply-summary.v1",
+  "updated": 8
+}

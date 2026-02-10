@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-02-08T13:25:53.951981+00:00",
+  "invalid_count": 4,
+  "invalid_records": [
+    {
+      "errors": [
+        "why[0].evidence must be non-empty list",
+        "why[1].evidence must be non-empty list",
+        "why[2].evidence must be non-empty list"
+      ],
+      "index": 9,
+      "session_id": "69720eff-21a4-838b-b3fe-5ef0b12c3b05"
+    },
+    {
+      "errors": [
+        "why[0].evidence must be non-empty list",
+        "why[1].evidence must be non-empty list",
+        "why[2].evidence must be non-empty list"
+      ],
+      "index": 11,
+      "session_id": "69714e28-51b0-832b-a86d-f7e1a0daf53e"
+    },
+    {
+      "errors": [
+        "why[0].evidence must be non-empty list",
+        "why[1].evidence must be non-empty list",
+        "why[2].evidence must be non-empty list"
+      ],
+      "index": 18,
+      "session_id": "696f865e-4af4-8332-9d10-895fc50d769e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 20,
+      "session_id": "696f243c-4318-832c-b07f-8b628ebe274b"
+    }
+  ],
+  "run_id": "backfill-20260208T085133Z",
+  "schema_version": "diagnose-invalid-session-mechanisms.v1"
+}

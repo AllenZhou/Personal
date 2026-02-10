@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-01-27T15:59:33.927Z",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519865+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "d9d8b468-ef31-48d1-8c0f-fe19ddc6eea1",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W05",
+  "what_happened": [
+    "Session captured with 91 turns and source=claude_code"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "d9d8b468-ef31-48d1-8c0f-fe19ddc6eea1",
+          "snippet": "Implement the following plan: # Agent Skills 架构重设计 ## 目标 将当前的\"提示词模板\"改造为基于 **Claude Code + MCP** 的可运行 Agent，支持人机协作。 --- ## 架构概览 ``` ┌────────────────────────────────────────────────",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

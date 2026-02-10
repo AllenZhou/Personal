@@ -1,0 +1,10 @@
+{
+  "applied_at": "2026-02-08T07:15:07.741589+00:00",
+  "created": 0,
+  "records_invalid": 0,
+  "records_valid": 1,
+  "result_file": "/Users/allenzhou/MIRISE/agents/conversation-insights/output/skill_jobs/codex-smoke-20260208/api_codex_cli_results.json",
+  "run_id": "codex-smoke-20260208",
+  "schema_version": "diagnose-apply-summary.v1",
+  "updated": 1
+}

@@ -1,0 +1,15 @@
+{
+  "dry_run": false,
+  "generated_at": "2026-02-10T10:07:27.987077+00:00",
+  "model": "gpt-5-codex",
+  "note": "Incremental mechanism inference preview.",
+  "period_id": "rolling_all-time",
+  "provider": "codex_cli",
+  "run_id": "incremental-rolling_all-time",
+  "schema_version": "diagnose-incremental-preview.v1",
+  "sessions_with_mechanism": 139,
+  "skill_files": [
+    "diagnose-incremental.md",
+    "coach.md"
+  ]
+}

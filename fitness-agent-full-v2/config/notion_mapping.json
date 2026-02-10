@@ -1,0 +1,91 @@
+{
+  "profile_dynamic": {
+    "properties": {
+      "date": "Date",
+      "weight_kg": "Weight_kg",
+      "energy": "Energy",
+      "waist_cm": "Waist_cm",
+      "bodyfat_pct": "BodyFat_pct",
+      "notes": "Notes"
+    },
+    "select_options": {
+      "energy": [
+        "Low",
+        "Med",
+        "High"
+      ]
+    }
+  },
+  "plan_session": {
+    "properties": {
+      "target_date": "Target_Date",
+      "type": "Type",
+      "status": "Status",
+      "mode": "Mode",
+      "rationale": "Rationale",
+      "plan_readable": "Plan_Readable",
+      "session_key": "Session_Key"
+    },
+    "select_options": {
+      "type": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "status": [
+        "NeedsPlan",
+        "Ready",
+        "Done"
+      ],
+      "mode": [
+        "Normal",
+        "Deload"
+      ]
+    }
+  },
+  "plan_exercise": {
+    "properties": {
+      "session_rel": "Session",
+      "order": "Order",
+      "name": "Name",
+      "pattern": "Pattern",
+      "equipment": "Equipment",
+      "sets": "Sets",
+      "reps_or_time": "RepsOrTime",
+      "intensity": "Intensity",
+      "rest_sec": "RestSec",
+      "risk_tags": "RiskTags",
+      "variant_tag": "VariantTag",
+      "notes": "Notes"
+    }
+  },
+  "feedback": {
+    "properties": {
+      "session_rel": "Session",
+      "exercise_rel": "Exercise",
+      "done": "Done",
+      "difficulty": "Difficulty",
+      "pain": "Pain",
+      "next_day": "NextDay",
+      "notes": "Notes"
+    },
+    "select_options": {
+      "difficulty": [
+        "Easy",
+        "OK",
+        "Hard"
+      ],
+      "pain": [
+        "None",
+        "Mild",
+        "Significant"
+      ],
+      "next_day": [
+        "Good",
+        "OK",
+        "Bad"
+      ]
+    }
+  }
+}

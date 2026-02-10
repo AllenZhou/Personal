@@ -1,0 +1,182 @@
+{
+  "coverage": {
+    "sessions_total": 1991,
+    "sessions_with_mechanism": 139
+  },
+  "generated_at": "2026-02-10T09:20:18.487674+00:00",
+  "guardrails": [
+    "每条根因假设必须绑定具体证据簇（主证据+辅助证据），不能只报计数。",
+    "没有文本证据时，不推断用户心理状态或动机。",
+    "高风险主题（法律、合规、医疗、金融）必须标注来源日期与适用边界。"
+  ],
+  "period_id": "rolling_all-time",
+  "reports": [
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：大量会话以短提示词或宽问题启动，随后出现二次澄清、主题跳转或直接结束。",
+        "机制与证据簇：主证据是“短提示输入/需求澄清不足/单轮终止/范围漂移”标签跨时段反复共现；辅助证据是 action_hint 高度同构，均要求首轮先确认任务类型、范围与输出口径。",
+        "动作实验：上线 Trigger Gate（输入长度、风险词、主题相似度三信号），命中后先发 1 个最小澄清问题，再给最小可用答案。",
+        "验证窗：未来连续 30 个同类会话，复盘首轮命中率、二轮补约束率、单轮终止率。"
+      ],
+      "dimension": "incremental-trigger-chains",
+      "key_insights": "高频问题不是“答错”，而是“触发阶段失配”。最常见链路是低约束输入触发默认补全，随后进入纠偏或单轮终止，导致闭环率下降。",
+      "layer": "L2",
+      "period": "rolling_all-time",
+      "title": "触发链机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：工程与配置类会话常在前 10 轮出现路径歧义、工具中断、格式契约违规与 schema 错配。",
+        "机制与证据簇：主证据是“Unknown skill / Prompt is too long / API 400 thinking block / schema mismatch / 更新不可见”等故障重复出现；辅助证据是同类问题在不同任务中重复返工。",
+        "动作实验：固化 first-pass 诊断卡（目标边界、工作目录、工具可用性、输出契约、数据 schema、验收命令）并要求首轮显式回显。",
+        "验证窗：未来 10 个 engineering 会话，统计前 2 轮内是否一次性完成诊断卡并减少后续纠偏。"
+      ],
+      "dimension": "incremental-first-pass-diagnostics",
+      "key_insights": "复杂任务的主要损耗发生在 first-pass 缺失，而不是中后段执行能力不足。把边界、工具、数据契约前置检查，可显著减少长回合返工。",
+      "layer": "L2",
+      "period": "rolling_all-time",
+      "title": "首轮诊断机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：大量单轮、空会话、额度阻断、速查型会话缺少可复盘机制字段，难以进入可用诊断样本。",
+        "机制与证据簇：主证据是会话总量与可诊断量存在明显落差（1991 vs 139）；辅助证据是多类“单轮终止/入口阻断”反复出现但缺少统一终止原因结构。",
+        "动作实验：对全量会话补采轻量事件（终止原因、是否触发澄清、是否发生主题切换、是否命中验收）并统一 outcome 口径。",
+        "验证窗：14 天内将机制覆盖率从当前基线提升到可持续区间，并检查短会话是否可纳入最小诊断。"
+      ],
+      "dimension": "incremental-coverage-gap",
+      "key_insights": "机制可诊断覆盖率偏低（139/1991），导致改进信号集中在“问题会话”，对正常与短会话的学习不足。当前数据结构更擅长解释失败，不擅长提炼稳定成功条件。",
+      "layer": "L2",
+      "period": "rolling_all-time",
+      "title": "覆盖缺口机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：research/info-query 以约束缺失为主，debugging/new-feature 以执行模型失配为主，planning/refactoring 以边界漂移和版本分叉为主。",
+        "机制与证据簇：主证据是同类标签在对应任务里稳定复现（如短提示与单轮终止集中于检索学习类；工具中断与上下文锚定失败集中于工程类；范围蔓延集中于重构与评审类）；辅助证据是 action_hint 在各类任务中呈现不同模板。",
+        "动作实验：research/info-query -> 三槽位澄清（前 2 轮）；debugging/new-feature -> 探索-规划-确认三阶段（前 10 轮）；planning/refactoring -> 需求冻结卡+版本差异表（前 5 轮）。",
+        "验证窗：按 task_type 周度看板复盘，分别追踪首轮命中率、返工轮次、主任务保持率。"
+      ],
+      "dimension": "incremental-task-stratification",
+      "key_insights": "不同 task_type 的失败机制差异显著，统一干预会失焦。应按任务分层建立“task_type -> 根因 -> 动作 -> 验证窗”的固定链路。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "任务分层机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：会话经常从“可答”走向“可执行性不足”，表现为范围漂移、纠偏回合增加、结果可见性争议。",
+        "机制与证据簇：主证据是“短提示输入+澄清不足”“多主题切换+未重置”“工具故障+无恢复剧本”三簇标签长期并存；辅助证据是同类 action_hint 持续要求澄清模板、切换确认与验收卡。",
+        "动作实验：根因一用 Clarify-first，根因二用 Topic Re-contract，根因三用 Error Recovery Playbook（含降级路径与验收命令）。",
+        "验证窗：未来 4 周按根因簇跟踪首轮命中率、纠偏次数与 partial/abandoned 占比变化。"
+      ],
+      "dimension": "incremental-root-causes",
+      "key_insights": "根因集中在三类机制：低约束输入触发默认补全、主题切换缺少重签约、复杂执行缺少契约化恢复。这些根因可解释大多数返工与部分完成。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：早期更常见“短输入->快速答复->单轮结束”，近期更常见“多工具协作->边界重定义->恢复与验收争议”。",
+        "证据簇：主证据是近期高轮次会话集中出现 execution_model_mismatch、context_anchoring_failure、error_recovery_failure、更新可见性缺口；辅助证据是旧期高频仍为短提示与泛化回答，但影响层级较浅。",
+        "动作：实施双轨机制（Lite 查询轨与Execution 轨）；Lite 轨保留快答但加最小澄清，Execution 轨强制 first-pass 诊断与验收卡。",
+        "验证窗：未来 4 周比较两轨的首轮命中率、返工轮次与会话时长分布，判断变化是否被吸收。"
+      ],
+      "dimension": "incremental-change-delta",
+      "key_insights": "本期相对上期，问题重心从“信息检索型短会话”转向“工程执行型长会话”。变化不在内容领域，而在协作复杂度与执行链可观测性。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "机制变化增量 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：现有 action_hint 对症但分散，缺少统一执行协议，导致同类问题重复以不同话术返工。",
+        "机制与证据簇：主证据是多类会话重复提出相同改进动作（首轮澄清、主题确认、验收卡、来源校验）；辅助证据是失败会话常在这些步骤缺席时出现。",
+        "动作实验：干预包 P1 Clarify-first、P2 Topic Re-contract、P3 High-risk Source Gate、P4 Error Recovery Playbook，按风险自动触发。",
+        "验证窗：两周灰度发布，逐日监控触发率与修复率，周末复盘误触发与漏触发。"
+      ],
+      "dimension": "incremental-interventions",
+      "key_insights": "有效干预应从“补答案”转为“控过程”。优先级应是澄清闸门、切换重签约、风险溯源闸门、故障恢复剧本四件套。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "干预设计机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：前置澄清或分支确认的会话常在 3-6 轮形成可执行产出；缺少前置动作时更常见 8 轮以上改写与 partial 结局。",
+        "机制与证据簇：主证据是收敛型案例中普遍存在参数清单/分支选择/冻结边界；辅助证据是失败型案例普遍出现后置约束与中途重定义。当前因缺少统一埋点，置信度为中（约 0.62）。",
+        "动作实验：对同类任务做 A/B（开启或关闭四件套），前后对比 first-pass 命中率、返工轮次、user correction 密度。",
+        "验证窗：14 天；若首轮命中提升不达目标区间或返工降幅不足，则回滚并重设触发阈值。"
+      ],
+      "dimension": "incremental-intervention-impact",
+      "key_insights": "样本显示“先约束后产出”的会话更易在中短轮次收敛，而“直接展开”更易进入反复纠偏。当前结论为中等置信度，仍需 A/B 验证补强因果。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "干预影响评估 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：同一类机制（澄清不足、主题漂移、执行中断）在不同时间段重复出现，复发率高于预期。",
+        "机制与证据簇：主证据是 action_hint 长期重复但缺少统一“生效/失效”记录；辅助证据是部分会话出现“更新不可见”与“验收口径不一致”。",
+        "动作实验：建立周循环（定义指标->采样复盘->更新模板->再发布），核心指标含 first-pass 命中率、主任务保持率、高风险来源标注率、返工轮次。",
+        "验证窗：连续 4 周执行，要求每周产出“保留/调整/下线”清单并在下一周生效。"
+      ],
+      "dimension": "incremental-validation-loop",
+      "key_insights": "当前问题在于“有建议、少闭环”：同类失效机制跨月复现，说明干预没有进入持续验证回路。必须把验证指标前置到每次交互。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "验证闭环机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：高频出现的有效动作包括三槽位澄清、主题切换确认、需求冻结卡、高风险来源日期标注，但调用方式不稳定。",
+        "机制与证据簇：主证据是上述动作在不同任务反复出现且能解释收敛差异；辅助证据是同类失败会话仍重复同一缺口。复用率判断为“潜在覆盖高（约 60%-70%）但显式复用中低”，证据缺口是缺少模板 ID 埋点。",
+        "动作实验：固化资产（A 三槽位澄清模板，B 主题重签约句式，C 需求冻结卡，D 高风险溯源卡）；下线资产（默认长篇百科式首答、编号菜单自动扩写、无验收的能力清单式回复）。",
+        "验证窗：30 天内追踪模板命中率、同类问题复发率、平均返工轮次；若下线资产触发用户满意度下降，再做回滚评估。"
+      ],
+      "dimension": "incremental-reuse-assets",
+      "key_insights": "模板、清单、规则已形成可复用资产簇，但尚未完成产品化复用。结果是同类场景反复“重新发明澄清流程”。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "资产复用机制 - rolling_all-time"
+    },
+    {
+      "conversations_analyzed": 139,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "现象：当前改进多停留在会话内有效，跨会话迁移不稳定，导致同类问题重复学习。",
+        "机制与证据簇：主证据是跨月份重复出现相同根因与相同建议；辅助证据是少数采用结构化约束和分支确认的会话体现出更快收敛与更高可执行性。",
+        "动作实验：建立 Compounding Loop：每周选 Top3 复发机制->映射到标准模板->灰度上线->次周复盘并升级版本号。",
+        "验证窗：连续 8 周观察复发机制占比与模板命中后的返工降幅，确认是否形成稳定复利曲线。"
+      ],
+      "dimension": "incremental-compounding",
+      "key_insights": "复利不是“多做一次总结”，而是把每次纠偏沉淀成可复用协议并进入下一轮触发。形成“触发-干预-验证-资产化”闭环后，改进会跨任务累积。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "复利机制 - rolling_all-time"
+    }
+  ],
+  "schema_version": "incremental-mechanism.v1",
+  "source_run_id": "incremental-rolling_all-time"
+}

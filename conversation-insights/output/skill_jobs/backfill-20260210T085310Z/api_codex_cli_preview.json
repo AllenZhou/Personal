@@ -1,0 +1,10 @@
+{
+  "dry_run": false,
+  "generated_at": "2026-02-10T08:53:10.210804+00:00",
+  "model": "gpt-5.3-codex",
+  "note": "API execution preview. Non-dry-run requires valid provider credentials.",
+  "provider": "codex_cli",
+  "run_id": "backfill-20260210T085310Z",
+  "schema_version": "diagnose-api-preview.v1",
+  "session_count": 1840
+}

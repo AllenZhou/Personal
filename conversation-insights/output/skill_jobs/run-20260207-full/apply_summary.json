@@ -1,0 +1,9 @@
+{
+  "applied_at": "2026-02-07T06:30:18.817103+00:00",
+  "created": 50,
+  "records_valid": 50,
+  "result_file": "/Users/allenzhou/MIRISE/agents/conversation-insights/output/skill_jobs/run-20260207-full/api_anthropic_mock_results.json",
+  "run_id": "run-20260207-full",
+  "schema_version": "diagnose-apply-summary.v1",
+  "updated": 0
+}

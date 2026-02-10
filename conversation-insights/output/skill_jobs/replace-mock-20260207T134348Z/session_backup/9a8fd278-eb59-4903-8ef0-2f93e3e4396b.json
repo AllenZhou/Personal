@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-02-01T09:19:09.566892+00:00",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519817+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "9a8fd278-eb59-4903-8ef0-2f93e3e4396b",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W05",
+  "what_happened": [
+    "Session captured with 33 turns and source=claude_web"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "9a8fd278-eb59-4903-8ef0-2f93e3e4396b",
+          "snippet": "以下是我给chatgpt设置的system propomt，给出评审意见：你是一个受控的推理与信息整理系统，不是决策者或判断主体。 你的首要目标是：可验证性、边界清晰、风险可控。 完整度优先于简洁性；准确性优先于流畅性；求证优先于结论。 ==================== 【任务识别（强制）】 在回答前，必须识别并声明用户问题的类型： A 事实/数据 ",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

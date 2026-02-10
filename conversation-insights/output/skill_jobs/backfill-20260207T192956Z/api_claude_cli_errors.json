@@ -1,0 +1,2440 @@
+{
+  "failed_sessions": [
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "adb59fef-2b3f-4f39-b84f-e86610d96ed7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d13507fe-54d0-4cef-9628-7f5aa54703a9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "04b9fc38-0d00-433a-b074-d2ba4e590807"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "7c5bfd98-6281-402c-94bf-07a522cff996"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "4aa7f825-ec59-419a-84e5-c98bd30c4d7e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c2f6c-a13b-7cb3-b747-d5466262cd82"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0e5519e3-1977-439f-9013-dc235ee63b43"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "723d497e-e9e1-4d18-bc34-c12613093ed0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "3dc7d9fa-4ad5-4f4e-8a53-3ea6f6ff8f17"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e866da87-b20c-45de-93e2-9e176098df43"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ea72b8a7-ca06-4276-bbb5-29484382fc58"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "38f8b99b-12fa-4672-abda-8768d68938a4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "7074c8bd-8530-4735-a037-1ce38195bec2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "28247acc-1b44-4963-89f4-ea7eadf16624"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "9a8fd278-eb59-4903-8ef0-2f93e3e4396b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "eed603c8-d37b-43d9-a135-3a48b8fd99e1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "65bbe90e-b92d-4e0d-abfd-6003018d3297"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "17ee21f9-6802-41a1-881a-e41bd62e0187"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "a1431878-0a5c-4a04-ab26-338155bc2d31"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "72bd6650-ee38-4a4c-b6bd-bcece01c7838"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "3a9e455f-b34b-48a4-af07-361624619bdb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "24b3c704-5ee8-4d1f-ae68-036485fbb2de"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c06b9-4560-7ae3-804a-22464a15cf8a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "92de913d-02bf-4503-993d-68c99987fa5b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c06b9-45df-72b1-9b2e-fd4554ae652f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "5b00cab4-76ab-4c9c-9f7b-3000ca6c07ec"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e720ef88-e946-4924-b488-9fada5ac221c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "276f24f0-e9a7-40b2-a8c8-64d26b966248"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f0f17ebe-6134-4f1d-8c91-c1b16e2ea6ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c3475-94ae-7263-affe-c1c54a6712d9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "593c2c78-8696-419c-8298-a132f71324df"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0716662a-cf68-4293-b3f8-3bdfb89f7d2e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8a2baf38-d492-4f36-8ec3-d65f4f481295"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c044d-2fcd-7933-b051-1c5db1aeab86"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c044d-2f7c-7191-b4dd-1d4b23b84326"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "dd81b6d7-ce60-404a-9acb-512b0c889e3f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "a3652328-e796-4812-aa7f-691893310608"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "79fefb5c-715c-422b-9fe9-8e8b0282832b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "c60c79c6-6d5e-4176-8428-0419833cfbc1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "bdb4d837-ada3-4907-9633-c298a3262727"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d9d8b468-ef31-48d1-8c0f-fe19ddc6eea1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "40b3d09f-ff83-490d-99d9-0327ae4703ff"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "a4467d63-f095-4b8c-9dfe-180962ecfef7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "98323d5f-e89d-4b64-96a8-41847f4ac10d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d45f19db-591c-4b6b-b564-e8fb85670b9a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b6c132b3-f147-41fe-90cf-ea6e27b70095"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ed01f0fd-1797-4fd2-8113-1d099124e1e8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b9303ce5-7a6b-4003-8f9b-c6fe20c53ceb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "019c00fb-bb4f-7822-b2e8-98e57150f245"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6975e59a-f148-838d-bdfe-32bbf57f3375"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6974bb34-f330-832f-9c0b-46525f110a30"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6974b7d8-c850-8328-be59-a12056a5a446"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6974b173-1f38-832c-a4d7-5369fec77984"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6974b151-7044-832f-9e6e-b197ea7db324"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6973e904-91e8-8327-8645-447a69f2d8d8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69738fdb-b968-8329-a997-71d56e9a8590"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69751ab0-ff58-8331-a275-ef0a2157db54"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6974adfc-4d78-8330-9d1d-7a03946c0398"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "697369a2-a2ec-838c-98ad-d104a903abb9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69735818-7874-832d-9061-7e9e9917aad8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69734d00-013c-832e-afb3-14ecb3d5faab"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "697281df-5164-8330-ada7-2d6a7a2a460b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69720eff-21a4-838b-b3fe-5ef0b12c3b05"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6971e51b-d400-832d-8649-9500c8a1f99e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69713f24-d3d0-8327-8337-56ef1ce35b43"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69714e28-51b0-832b-a86d-f7e1a0daf53e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6970d963-bf88-832e-8cc6-01d22d4516bf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6970f7f7-bbac-8332-b800-8e7b12e64f16"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696fcab1-e130-8325-826e-7c6a93d56154"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6974ada6-de90-8331-bfe8-1bdf0b477c7e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696f9912-11f8-8326-ba4b-8e49691ae19e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f915c8ef-c8fa-42b7-89cb-064bf7e427bf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0d56e7e2-d32f-488c-a02c-0f1efbfad700"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8a9159ca-d477-45fc-a875-1ea567b36c59"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696f243c-4318-832c-b07f-8b628ebe274b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e8daa-204c-8321-9701-214558714949"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e76a7-0db8-8333-9f9d-532765786b87"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696faa53-aa08-8329-b823-de86af70fba8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e7e21-d758-832f-b818-ace0b6b89b1f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e762d-5e68-8325-acf8-d6f96203118e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e5ea6-7274-8332-bc2e-9062285bf6b3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696ed429-c95c-8324-955e-ab28bb26ae49"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e2ddc-3990-8332-a54a-7b4b3bc1fe53"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e0372-11c0-8332-b889-cdcd19cca205"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6965fcfb-9e0c-832e-9261-67305eb51eef"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6964ff50-ef90-8330-b30e-4dda196d9bcf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6964e985-144c-832e-99e5-050758c76d28"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6964ddc2-60c0-8325-af51-483fd890e04d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696a3f9f-4994-8327-bd9a-0ec60b390b6e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695fe50f-ee9c-8325-b667-0832ae7703c3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695f79a5-0108-8325-a668-ab640719debe"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695e09ee-f0c4-8330-819d-a08963c76c71"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695d8d11-45fc-8331-bb38-6eb0fca40474"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695c0e3b-7e28-832c-9c6b-b8e9f00297a1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695ad37d-722c-8327-84c7-dd3e1d1b6715"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695abae8-d200-8326-bc66-e722c8dc762e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696e607a-470c-8329-967d-b122c656b268"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695a2cb7-c4f8-832e-a0a7-5931dc930e97"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "695913c5-7a20-832d-bfe6-4ee1404f5e4a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696f865e-4af4-8332-9d10-895fc50d769e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696bd302-55a4-832c-926e-3eb06fbd25fb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6958a7be-1744-8328-a2fd-7da27ebaf999"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696c7f0f-36a8-8330-be38-0999fc866e6b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69690613-3dd8-832e-93f9-96d6ba21319d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69578905-c150-8331-be17-c8bcc1316edc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6956d7ce-3050-8333-a73b-e9cb40f9a56a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6956c51d-9640-832e-99b6-d276d427efc3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6956b240-9f2c-8325-90af-8ca9531bf49a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6953b4bd-5e48-8331-8429-e1ba0355d494"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69527d9e-f3fc-8329-ba6a-22461be4d79a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6952078b-b0b4-832b-a48f-96b7a08b0140"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694f879d-5434-8325-8ef4-96b2eaecb9cf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694e7f15-9ab0-8329-b871-1d2dce793b44"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "696693ca-6ac8-8333-b448-80731a8a59ed"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694dd509-4164-8325-87e2-6047255cebf7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694cf7ca-7d18-8325-b302-3e3137419e7a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694cca23-bec4-832b-a4fe-91a629acc5e8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694cc401-8a68-8329-a09e-b1eec5eb86f2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694a842c-4548-832b-bd55-cbd7fadab75a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694a6727-ed34-8331-8744-0f210a77f90b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6945ce08-44bc-8331-8860-5b570a7ab98a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69452de8-0094-8328-bc6c-8b59ce255a29"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6944f4f5-b67c-8325-aa6a-d23efd7bc963"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69445b10-2f84-8331-aa43-a3c16feed0a7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6943974f-9348-832c-908b-e19d88c78d59"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "694aff73-9b98-8329-8ce3-b3d2932a5825"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6940f461-f21c-8328-aac0-6598e3543ff9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69402ff4-be6c-832b-bd4c-e9520b0adcc6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693fc788-2f60-8329-b5f8-84520afca23e"
+    },
+    {
+      "error": "Command '['claude', '-p', '--output-format', 'json', '--no-session-persistence', '--model', 'sonnet', '--system-prompt', '你是对话机制诊断器。仅输出一个 SessionMechanismV1 JSON object，不要 markdown。字段名必须为英文契约名，字段值使用中文。必须包含: summary, what_happened, why, how_to_improve, labels。why[*] 必须有 hypothesis/confidence/evidence，evidence 包含 session_id/turn_id/snippet。how_to_improve[*] 必须有 trigger/action/expected_gain/validation_window。禁止输出无证据的心理诊断。', '请基于下面 SessionDigestV1 输出一个 SessionMechanismV1 JSON object。\\n如果证据不足，请给低置信度可验证假设，但必须有具体 evidence。\\n\\nSessionDigestV1:\\n{\"created_at\": \"2026-01-19T10:18:49.715116+00:00\", \"detected_domains\": [\"ai-ml\", \"business\", \"creative\", \"education\", \"marketing\", \"productivity\"], \"llm_metadata\": {\"actual_domains\": [\"ai-ml.general\", \"business.general\", \"business.marketing\", \"creative.general\", \"education.general\"], \"cognitive_patterns\": [], \"conversation_intent\": \"AI Agent 学习路径\", \"conversation_summary\": \"AI Agent 学习路径。学习类任务，共1轮对话，探索性对话。\", \"difficulty\": 3, \"key_topics\": [\"AI Agent 学习路径\", \"agent\"], \"outcome\": \"exploratory\", \"prompt_quality\": {\"score\": 65, \"strengths\": [\"detailed description\", \"references code\", \"clear intent\"], \"weaknesses\": [\"some corrections needed\"]}, \"task_type\": \"learning\"}, \"model\": \"gpt-5-2\", \"primary_language\": \"zh\", \"schema_version\": \"session-digest.v1\", \"session_id\": \"696e04f4-3a80-832a-b871-b132bf2964aa\", \"source\": \"chatgpt\", \"timeline\": [{\"assistant_snippet\": \"以下内容不是“概念介绍”，而是**工程师可落地、可审计、可对照失败的定义**。你可以把它当成之后所有 Agent 设计评审的**总判据**。 --- ## 一、工程师视角下的 AI Agent 本质定义 ### **一句话工程定律（先给结论\", \"correction_count\": 1, \"tools\": [], \"turn_id\": 1, \"user_snippet\": \"你将作为我的「AI Agent 首席导师 + 架构评审官」。 唯一目标： 用最短时间、最少无效信息，让我真正掌握 AI Agent， 包括其设计思想、系统结构、工程化落地方式， 使我具备独立设计与评估 AI Agent 系统的能力。 我的背景（必须作为前提）： - 有 6 年后台\"}], \"title\": \"AI Agent 学习路径\", \"tool_count\": 0, \"turn_count\": 1, \"week\": \"2026-W04\"}']' timed out after 180 seconds",
+      "session_id": "696e04f4-3a80-832a-b871-b132bf2964aa"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693e9451-ac6c-8325-8c03-6c971ec020b3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693fc598-3edc-8327-924f-065849b85e28"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693a8091-eae0-8332-974d-0f7564d51da3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6937ab8a-0d28-8326-a3cc-dbb2bbfacfa9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6937090e-7a5c-832b-b8a4-d5ce3bf36e7e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693d2343-a0f8-8329-ade2-5acaffeefa37"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69370116-1c50-8332-9c2b-c20bf93ec865"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6936bffe-3e78-8329-b9a8-d20dcaa34012"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6933e757-68a0-8328-8599-325c26ad55c8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693352f8-1ed0-8332-b476-4bb1638b4985"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69327cb6-fd24-8332-af60-c59204a05943"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "692fffb4-588c-8332-bc12-8cfb787e3f30"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "692efcf6-fb94-8329-9081-2a410c86f7d8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "692c46a8-77d8-832d-a238-1c83ad5e3e27"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6929beb6-d704-8333-832f-468534006a8a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69281e1f-c174-832f-9d98-111cf59de544"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6926ccab-aa84-832f-a4a8-b4dac68721e4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69201052-a1d0-8327-8561-64b79a9985c8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "691db960-c78c-832d-829f-4d3c9059daff"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "691c6f34-2854-8331-b804-7cdef94ceb26"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "693171e1-cf78-832d-ba4e-a5320592f456"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "691c4600-00f8-8330-887e-58ee060bc4b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "691c1e4b-34b8-8330-8e23-9f7ed63eb621"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "691b2554-8010-832a-ba03-899471f98422"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6919a528-e668-832d-86a1-91baf7eaba7e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69186104-8678-8330-8c48-d3efe3237578"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6914b655-555c-8331-904b-d3ec11994871"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69135100-e850-832e-a293-298593c542ac"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69131de3-41b0-8328-964f-9a540479fce6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6910da0e-84a0-832a-9617-c30631538b88"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6911a826-2ef8-832a-8e62-9b09b8ebe11d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690dfe38-0ba0-8330-8a59-ca400ef0932b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690c5df4-2e38-8330-82aa-3c3a52d29898"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690c4af1-8d98-832c-8935-6e6d532b1141"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6912c92c-59a4-832b-ba27-c4acaee8c80a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690b27e6-7eac-8329-98a8-fe93af803b85"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690a0151-451c-832a-b59a-83f731ec29d7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690dd4ff-9548-8330-9fff-6d4aa7d62875"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69070c74-5c38-8332-8561-49884535d4e4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69031aee-4058-8330-a817-ff6697f7ab84"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "69023dec-005c-832d-9e3c-5c16d2651d17"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68ff2c69-19ac-832b-8387-e0f3334afe06"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690af9e1-8ec8-8328-be64-c6d61333907a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68fe7b1e-e7a4-832c-9718-21d378607d5e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68fb4ce1-b738-8325-a606-30c28311e65e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "690360c4-2340-832f-85fc-ba7dbf932f9a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f8d6df-8880-8330-9ac9-0796cacf047d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68fa4fca-acd8-8324-8b86-e395d2466dd4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f89f85-ca1c-832b-b5f7-985a2fd20ec2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f77c8a-c2b4-8332-b42c-508acae7522c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f72c93-3638-832f-a92f-3d9c9b8d588c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f7df1f-5578-832f-90dd-a8c2b37f863a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f71d06-f388-8326-a758-c88654e9e9ec"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f4da2a-333c-8327-9058-3ef0cadd2f54"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f1fc0d-90fc-832b-9fd1-3fbec9e3b4b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f60ccd-7cd8-8325-b534-d4525438d9a9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f2729a-9b28-8325-9625-f4eddc96081c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f12c43-ec10-8321-a6b7-f88e0a832a17"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f0b680-eb0c-8331-adab-31f4e1b75216"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68efa2ee-0840-8322-9a22-f6b5e164b8cb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68f7289c-958c-8326-9944-f669628c44b4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68ee7c6a-2934-8323-b210-64802718531a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68eba868-511c-832f-9981-0bdd8cfe04d2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68e6593f-473c-8332-a204-3c8fd9a28f37"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68ef90c7-043c-8331-bb02-32d8ce2ee1d1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68e61113-2b88-8320-aa8b-789581fd5c12"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68e3c314-950c-8331-b14b-84be5e3abb2f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68e3bfbc-47a4-832c-a1b2-b1d1a643ea15"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68e1a5c8-83f4-8321-9598-8a1aa7c75f87"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68e2116c-7284-8328-ab73-2d232830524c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68db7c4a-313c-8333-988e-5375a5f9b9fc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68d9b5d4-ffb8-8333-a134-ece8257d8fed"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68d9a010-3358-8322-a422-c4f08d09e4f1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68d3aa66-cad4-8330-be1a-992e8d845ed0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68da1d22-4148-832a-bf84-e5b5bbea620f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68d02878-dc3c-8328-987c-26aeb27a8044"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68ccdc74-1818-832f-a54f-328f44e4e09d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68cce75b-59d0-832f-9213-04ddab228027"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68cbc02d-9dd4-832d-9445-2a4ba4b8bd21"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68c132ee-55a0-832c-be43-950e9df69a2a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68bfbaa2-73b4-832e-9db2-e8c834daf96b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68beb870-23a4-8326-b04f-653ed75ebdb2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68bd2709-053c-832a-b519-64afcfd2bd5d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68c3b9f9-5f18-8332-83d1-5ee5c9fea4ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68a927a6-090c-8331-95d8-3e66e71454d1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68a54a2a-859c-8320-a7a6-86665d3eb902"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "689d5d11-0a04-8333-80f1-b6eb321953ca"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68875e61-2e04-8329-9164-904ffc68e903"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "688741b4-d900-8330-a14b-5320da367756"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68860c48-d534-832a-81bb-9701c1133553"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6884c922-43e4-8323-889a-3d2ffff21b17"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6883811c-9c58-8325-ac15-73c341ce28e4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6889a7e5-7504-8331-9450-b75f118f9850"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6883a428-9840-8329-9c16-4d4043530b4f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "688231fc-367c-8328-b1e7-fb6b571f2ba8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6881d22e-7e08-832c-8898-0c3b4406e600"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6880f1c5-8954-8002-8c6c-f617c7d7b310"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6880737b-09c4-8002-b498-033052d8d87e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "687d1dfd-4958-8002-b5a3-36ee3b293b8e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "687a6768-0be4-8002-9afc-8815b0feb1ac"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68767a07-a374-8002-84c9-e43a7e3db007"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "687509f8-a304-8002-a6fc-fb41bf75d9ae"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68739742-a1f4-8002-b8f6-1e8e80f6a149"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68736206-1b54-8002-8cd3-80bcdad87478"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "687353b1-8038-8002-964b-cfa541d5e9bc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68723f84-6504-8002-8887-da3aacc6d8b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68732ed6-38a4-8002-b31f-df9c4516bc32"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6871e2eb-49e8-8002-a1f2-892d45c5bb50"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68713659-76cc-8002-ab28-e3eb268d5318"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68710619-2cd0-8002-87cc-005c42d9c7ec"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686f5d78-da88-8002-b334-71173db479fe"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686dfd84-60e8-8002-9576-59bb2e4a10e1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686f4955-b468-8002-8282-2ff82e01f1a1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686df598-2e08-8002-b594-5264a7fe6944"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686cd0be-e3bc-8002-8568-7d4e2f4456f2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686ab132-caa8-8002-82ba-e6f6be63b36f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686de3c2-c148-8002-81a3-0794ad8389a3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686aa96c-1b84-8002-9e8a-07a9d853f109"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686a2a5d-a8f0-8002-b2e9-819fa444209c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6868d9cd-fa44-8002-9a9b-d2441328d64b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686bbf81-9ae0-8002-af65-929a4e09e941"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "686b850e-6b78-8002-b746-9d1448b5da8e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6865353d-ec2c-8002-9128-5f59c2aeffd0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68634404-4400-8002-bd22-667aedc23aa7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68625930-1c4c-8002-bc3c-f52a6ee5ec7b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6862453f-4058-8002-8a08-1c9bfbc16c3f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685f5267-01dc-8002-aaa8-09c832438e9c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685ccd21-96e4-8002-a8ac-423e672c9e51"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685b805d-799c-8002-a44f-742bf3eb8e60"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685a41fb-cac4-8002-bd0d-20a480003d9f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68596b3e-f068-8002-b9e5-1200813bcc17"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "687fac4c-9644-8002-beb0-03dab27e61a3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6857d5f0-e690-8002-acc8-9412a992dc81"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6857d113-d9e4-8002-8257-723616557604"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6857cd6f-7bf0-8002-a7ff-70a464f26061"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685777ea-adbc-8002-bfe7-c8b9af90e717"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68592770-4af0-8002-bd4f-953ca15083b5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6856a518-de30-8002-a67a-a23ae5a43693"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68567186-6a74-8002-a6d3-1e6b110ada07"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685383b0-97d4-8002-b939-21e1c26684f8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68517d13-2b08-8002-81f4-96e4f53c7d24"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685170ca-4fc4-8002-a0c1-84c0de4da0a3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "685162ea-c498-8002-8527-945d5953c8a7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684ff800-5728-8002-90c2-e1332234b1ec"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6852abe2-8050-8002-8fa1-a9440e8ff4d5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684c6cff-1098-8002-88b1-c03d1c19983f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684c5935-5760-8002-b83e-6ade36bf941f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684c6c63-dd2c-8002-b0be-b84b1682efd8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684d5bb3-3194-8002-886c-9dd3561035a1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684c577c-685c-8002-a026-a71ca1376c37"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684c4a8a-9afc-8002-9790-84a4fcbdfea3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684bac00-0a2c-8002-9d1c-e9625b4ec741"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684aaaf1-8c28-8002-ac37-fec00cd84674"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684a5d92-476c-8002-b3e8-77c8f75f97e1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684a747d-9ed0-8002-929d-ce2e6efec4b3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68499018-4bc8-8002-b38b-cd21d4bdc2d0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6846ded7-a638-8002-9666-688f01051f89"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6846b593-b6ac-8002-a2ab-72f0ddff811b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68442224-9580-8002-8e33-1131c613f0b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68441675-c118-8002-b395-fb451a3c0d1c"
+    },
+    {
+      "error": "Command '['claude', '-p', '--output-format', 'json', '--no-session-persistence', '--model', 'sonnet', '--system-prompt', '你是对话机制诊断器。仅输出一个 SessionMechanismV1 JSON object，不要 markdown。字段名必须为英文契约名，字段值使用中文。必须包含: summary, what_happened, why, how_to_improve, labels。why[*] 必须有 hypothesis/confidence/evidence，evidence 包含 session_id/turn_id/snippet。how_to_improve[*] 必须有 trigger/action/expected_gain/validation_window。禁止输出无证据的心理诊断。', '请基于下面 SessionDigestV1 输出一个 SessionMechanismV1 JSON object。\\n如果证据不足，请给低置信度可验证假设，但必须有具体 evidence。\\n\\nSessionDigestV1:\\n{\"created_at\": \"2025-06-26T07:19:22.735559+00:00\", \"detected_domains\": [\"health\", \"real-estate\"], \"llm_metadata\": {\"actual_domains\": [\"devops.cloud\", \"health.general\", \"programming.go\"], \"cognitive_patterns\": [], \"conversation_intent\": \"迪拜干细胞治疗规定\", \"conversation_summary\": \"迪拜干细胞治疗规定。研究类任务，共13轮对话，完成。\", \"difficulty\": 4, \"key_topics\": [\"迪拜干细胞治疗规定\", \"cite\", \"turn0search0\", \"medical\", \"fitness\"], \"outcome\": \"resolved\", \"prompt_quality\": {\"score\": 35, \"strengths\": [\"basic request\"], \"weaknesses\": [\"too brief\"]}, \"task_type\": \"research\"}, \"model\": \"gpt-4o\", \"primary_language\": \"zh\", \"schema_version\": \"session-digest.v1\", \"session_id\": \"685cf47a-8ec8-8002-b98e-b2a5c5935fed\", \"source\": \"chatgpt\", \"timeline\": [{\"assistant_snippet\": \"在阿联酋，尤其是迪拜，干细胞治疗是**合法且受严格监管**的，必须在取得政府授权的医疗机构中进行。 --- ### ✅ 迪拜干细胞治疗现状 - **法律与监管** 阿联酋卫生部（MOHAP）、迪拜卫生局（DHA）、以及迪拜医疗城监管局（DH\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 1, \"user_snippet\": \"迪拜是否允许开展干细胞治疗\"}, {\"assistant_snippet\": \"干细胞用途广泛，因其具有**自我复制**与**分化为多种细胞类型**的能力，被广泛应用于医学治疗、再生医学、疾病研究等领域。下面按用途分类说明： --- ## 🔬 一、医学治疗用途（临床与研究） ### ✅ 1. 再生修复治疗（最常见） |\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 2, \"user_snippet\": \"干细胞用途\"}, {\"assistant_snippet\": \"迪拜（及整个阿联酋）在干细胞治疗方面具有**明确且严格的法规**，其合法应用主要集中在以下几个方面： --- ## ✅ 1. 合法提供主体和监管机构 - 只有**获得曼、阿联酋卫生部（MOHAP）、迪拜卫生局（DHA）或迪拜医疗城监管局（D\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 3, \"user_snippet\": \"迪拜的合法应用\"}, {\"assistant_snippet\": \"迪拜的医疗美容（非手术/微创项目）是**完全允许且高度规范化**的，必须在**持证医疗机构**和**合格医护人员**指导下进行。以下是详细说明： --- ## ✅ 合规主体与场所 - 所有医疗美容服务只能在经**迪拜卫生局（DHA）或迪拜医\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 4, \"user_snippet\": \"迪拜允许医疗美容吗\"}, {\"assistant_snippet\": \"迪拜医疗城（Dubai Healthcare City，DHCC）集中了众多**公认的高水准医院**和诊疗中心，以下是主要的医疗机构及其特色： --- ## 🏥 医院列表：主要医院（DHCC授权） - **Al Jalila Childre\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 5, \"user_snippet\": \"迪拜健康城有哪些医院\"}, {\"assistant_snippet\": \"以下是迪拜几类优质的**健康体检中心**，涵盖政府体检点与私立体检/全身筛查服务： --- ## 🏥 政府“医疗体检中心”——签证 & 职业健康体检 这些由迪拜卫生局（DHA）认可，遍布全城，适合体检需求、职业体检、签证体检等： - Al \", \"correction_count\": 0, \"tools\": [], \"turn_id\": 6, \"user_snippet\": \"迪拜有健康体检中心吗？\"}, {\"assistant_snippet\": \"你提到的是“经信局”——通常指的是“经济和信息化局”这一政府部门。请你稍微再说明一下具体想了解的内容，比如： 1. **哪个区域的经信局？**（例如中国某省市或国外类似机构？） 2. **你想了解它的什么功能？**（例如政策支持、招商引资、\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 8, \"user_snippet\": \"经信局\"}, {\"assistant_snippet\": \"苹果的口感在**8℃到12℃之间**时通常最佳。这一温度区间能让苹果的**甜味、酸味、脆度和汁水感**达到较理想的平衡。 --- ### 🍎 不同温度下的口感变化： | 温度 | 口感特点 | |------|----------| | *\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 9, \"user_snippet\": \"苹果的口感在多少度的时候最好\"}, {\"assistant_snippet\": \"在 DMCC（Dubai Multi Commodities Centre）注册并从事**鲜果／水果贸易**的公司有以下几家值得关注： --- ### 🍌 Banex Group DMCC - 主要经营鲜香蕉供应链，包括从农场至仓储、出口等\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 10, \"user_snippet\": \"DMCC从事鲜果贸易的公司\"}, {\"assistant_snippet\": \"**FMCG** 是 “Fast-Moving Consumer Goods” 的缩写，中文常翻译为： > **快速消费品** 或 **快消品** --- ## 🛒 什么是快速消费品（FMCG）？ 指那些**销售快、价格低、使用频率高、消耗\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 11, \"user_snippet\": \"FMCG是啥\"}, {\"assistant_snippet\": \"阿联酋特别是迪拜最近启动了一项具有里程碑意义的计划——这是全球**首个规模达30亿美元（约110亿迪拉姆）的房地产代币化项目**，未来目标扩展至100亿美元（约370亿迪拉姆）级别。以下为详细解析： --- ## 📌 项目概览 - **平台\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 12, \"user_snippet\": \"阿联酋启动30亿美元全球最大的房地产代币化项目，计划扩展至100亿美元规模。\"}, {\"assistant_snippet\": \"唐山，位于中国河北省东部，是一座以重工业为基础、正在向高端制造和绿色发展转型的城市。以下是唐山的**主要优势产业**及其特点分析： --- ## 🏭 一、传统优势产业 ### 1. **钢铁产业（支柱产业）** - **代表企业**：河钢集\", \"correction_count\": 0, \"tools\": [], \"turn_id\": 13, \"user_snippet\": \"唐山的优势产业\"}], \"title\": \"迪拜干细胞治疗规定\", \"tool_count\": 0, \"turn_count\": 13, \"week\": \"2025-W26\"}']' timed out after 180 seconds",
+      "session_id": "685cf47a-8ec8-8002-b98e-b2a5c5935fed"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68441051-fe18-8002-b2a6-6d24a6ca04e3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6843d243-e940-8002-9700-72254f571c00"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6841c6e8-be7c-8002-b8c2-d578cd5bd3a2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6841bc2c-a858-8002-ba44-2b53a5782305"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684288dc-d47c-8002-ba6d-5557321fe881"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6844180d-8a14-8002-9e2d-7c897a628ee2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68416014-cc24-8002-bc48-dc126ee11554"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6841302b-3c20-8002-a244-e34e2cf97dea"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "684055ad-7644-8002-853e-403841ed642d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68405397-f8c0-8002-8f2f-8140cd57225c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6840087c-08d8-8002-a46e-02d40bf1270e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683fadb9-154c-8002-b3e1-b629eec53bfb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683df61e-bc68-8002-87f8-5d84fcc0ffde"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c9112-4e18-8002-80d1-49cb58ac26f0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c906d-3398-8002-87ac-acc7c2eed4ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c8d54-ad10-8002-8e86-cf4580f4d9bf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c8a86-b2fc-8002-b2c4-173eb3dc73c7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c89af-a308-8002-b156-3f7e85536ed2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c8712-2184-8002-a7de-80e1c64cebca"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683ead52-b22c-8002-8794-451655b784f4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c86d9-0f64-8002-9129-4d6a37bc5498"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c85c9-006c-8002-a165-4dea043d9ff5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c7b4b-5f4c-8002-a45c-1e7392bccd06"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c7ab7-20e4-8002-becf-a826428de669"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c6563-bf64-8002-b9f5-824045fc6f34"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c5f89-6230-8002-a7fa-849f1c815821"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c43cf-8198-8002-8be1-5a96a524ee30"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683c3170-0444-8002-9480-b8dc5640d0eb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683aaad7-d584-8002-8dee-2361fe7f102b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683987af-d574-8002-bfe0-a1bf27acb79d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68397ce3-981c-8002-8ba4-62f3394650d0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68397a20-472c-8002-a00d-4af21a8bb8c5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68390d8b-1d94-8002-b6d7-92cb21f0c919"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6835997e-d854-8002-8d02-9949e73e18aa"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683420d6-071c-8002-a730-cbc0e164dcc5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683317bd-1378-8002-aefb-6629441d02ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68398305-dc5c-8002-bb11-e6c691783520"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68309a88-56dc-8002-8575-d93a911f07ca"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "683027d2-38b4-8002-b702-a46e0e3a5646"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682f508a-5b48-8002-93ac-158b2ff9abe7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682f4fd6-b970-8002-be04-6665dfa13cae"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682f4a98-c274-8002-8aae-ae5f0f522d09"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682f6162-5068-8002-b76c-94baa0255783"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682f4a06-42a0-8002-9159-d0fc53a31cfd"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682ec8c6-1254-8002-83c5-8930086e4dbd"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682ec7d9-da7c-8002-b573-ab83fe85a28f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682d7d0e-4378-8002-9657-4730757282ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682c88c3-cc68-8002-9de7-cd2e6b91fad8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682c4cf6-3adc-8002-9ca3-5ae805051107"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682b152c-ffa4-8002-950d-391ed8d90ff3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682ec0e4-656c-8002-ac26-90914d86d9f1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6829a1b3-406c-8002-9f9a-fd9efccbf2d8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682b1719-08f8-8002-aec6-c1916daf66f4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "682998e3-e1a8-8002-bec1-2ddce5b162fd"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6826b534-18c0-8002-9860-adb77c6157e5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68289fef-5974-8002-bfd0-43011a137374"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6824a5f6-8e3c-8002-a6b3-c0f200a62d4c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68281971-8ae8-8002-9025-900ab1a27ca6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68246f35-5ec4-8002-a5e0-c1c5e41f88c7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68236681-8048-8002-9a4b-dff00a25cc80"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6822c2c6-73e0-8002-a3fe-efc2ba943653"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68233da9-6d2c-8002-a06b-d531ce1754fa"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6824536b-ac3c-8002-a7cc-ac6448574760"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68179eed-e7e4-8002-ab08-587d24642908"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6812f63d-de34-8002-9272-6bc053ed80b4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "681289d5-8db4-8002-9440-f8d3a2bb6a6e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68127442-ed3c-8002-8137-2b25a25f1718"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "681c9fb7-5ac8-8002-969d-5f244fcde720"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "680dcbfc-03a4-8002-82be-01e4df1c709a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "680bf39f-799c-8002-8f14-0ac8311ec9f4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6808d977-cba8-8002-9965-0f88e25c65d6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "680218c0-7424-8002-9e98-c0242e66f13f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ffa8b0-a918-8002-bc31-ddba9d40f34c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67fde71c-f5d0-8002-9ca0-1f02780dc3a3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f8d7f8-e3cc-8002-a95c-287bd02402dc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f78cbc-8834-8002-a90b-6695438eda8c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ffd73b-e454-8002-9876-fb26dc54c9cd"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f92731-0ae4-8002-9c86-986f82084d41"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f6adf6-4d08-8002-9928-2c134853c514"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f63c51-558c-8002-9d55-3b2547972009"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f4c25e-556c-8002-a9ee-57ea98d0cb0a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67f39857-f88c-8002-81d8-71bc51301322"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ee3e1c-3d40-8002-aa58-4e1e80cf19a7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ecc4c7-6f44-8002-821c-7bb316cf48a1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ec16a0-d5f0-8002-aec2-cf863abbf612"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67eb8603-7d10-8002-a6e4-e99ba6ef1eab"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ea4c45-b254-8002-b447-3524fb210a0a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e6b0e0-95cc-8002-a137-c5de13ce12fc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e6a87d-14b4-8002-baf2-f34549cb0c65"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e52c47-c87c-8002-bdf9-4f24616df8c5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e4ef0c-8940-8002-8eba-6339f95dd9f1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e6aee2-514c-8002-9035-a6c25ab235c3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e3f0ea-1b10-8002-acb9-661591d10238"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e27c27-463c-8002-a787-df2653e4e400"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e26bd4-cdd4-8002-852a-bc374324df2a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e4ce95-0e64-8002-80b5-18c9072bd244"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e26abd-1864-8002-965a-567bb47931b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e2356b-01ac-8002-8e5e-1aa9f36e0614"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e02d47-8d18-8002-8198-acd7e35347a9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e02dbc-b56c-8002-9709-d4f36a6fc1b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67dffe97-c444-8002-a140-c5ed80e1f261"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67e00027-ec58-8002-8f07-a1e343a8996f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67dfc7a5-07c8-8002-a352-1540ec2f0703"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67dfc6ea-e96c-8002-b88a-bb86f1fc0a01"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67deab90-11e0-8002-8349-063ae10e8ce2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67de988b-86e4-8002-adb3-9ca6d17940ab"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67dda6a4-95b8-8002-950b-104852b6b9ad"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67cea9db-2fac-8002-abeb-57113c81aa04"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67dfbb69-6ffc-8002-8240-3bda8a59af55"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67cac1ad-b484-8002-82e3-e761109896ae"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67c5a06a-97f4-8002-8a65-499851ed0618"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67c06433-e074-8002-8fe3-c00092770f07"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67c945b2-ba68-8002-8be9-6676231ea944"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67d8ec87-0fd0-8002-a78c-84728e9c2183"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67d6545b-16d8-8002-9ede-ca8dbe7c1080"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67bfeedf-b26c-8002-812b-518e57ec4005"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67bfce5e-d380-8002-9872-9903fd6ebff5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67beb71d-5a40-8002-b08a-1ab3b0e3cb0f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67b82d1b-bc1c-8002-a8bf-3e3f58ad6e80"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67b5750c-987c-8002-bc95-ba42be0bbd78"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67bc70d1-3940-8002-ad32-28c8fea9537e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67b034cf-7a38-8002-b4d2-dd51c9b28d1b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67b2d676-a06c-8002-8188-0e76a20aef1b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67b296a5-771c-8002-aa09-e9c1fe331d36"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a9c867-6f3c-8002-bb4c-32dfbce7dbf2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a99f55-62fc-8002-ba1a-747ac7c282fb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a772d7-128c-8002-aae7-8e6bd61140c6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67ac7349-38dc-8002-a83a-d83eb83833aa"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a77135-7968-8002-98b0-2952261805d7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a9ca6a-7780-8002-98a5-73841fad856b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a77080-d308-8002-8bd8-6e6d83df4007"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a6004f-1164-8002-a9f3-e47071b8634a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a5da82-a0d4-8002-b82f-b8d40dbc88ea"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a5d7c7-633c-8002-9309-2ac0c965165f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a5d71c-addc-8002-90d4-d4430dd31fd3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a49634-e380-8002-899c-214fd9d0eca0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a495c9-e8a4-8002-8a9e-191a5c089935"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a48424-2110-8002-aa99-94075d5eb622"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a1e8a9-901c-8002-a5c5-6a9a8d333079"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67da87b0-851c-8002-b5c8-a4a94fd1369a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6799d7ef-b4bc-8002-8185-e864c5c4e0b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "679dd3cf-ba3c-8002-97dd-b48280e33160"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6799cdc0-d06c-8002-90cb-2f962f4ac7f0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6798a3d6-324c-8002-bf0f-53e55c181839"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "678e06ef-899c-8002-903f-5d4dfa224f28"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "678632b0-aaf0-8002-a534-91463e0ac994"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67a07f94-29a0-8002-80f8-f1c55275e4ee"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6784d3fc-23f4-8002-a157-173a7532c7ca"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "677f2232-ff50-8002-82f9-a42e988334c6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "677de119-5c10-8002-8a5e-a193163e7e24"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "677a956b-99f0-8002-ad56-3e382d22baf8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "677a629b-e190-8002-9635-52c532692c75"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67765ac0-bc80-8002-bd5b-a23677062571"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6777cd3b-fdf0-8002-8a7f-e9aa955a52a9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "676efcf5-1484-8002-957c-e87a7a9e6307"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "676d5eca-8000-8002-b7a7-b09fc55f322b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "676d4ebe-e1f0-8002-91aa-08a4872102cc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "676d4e87-0c3c-8002-83d7-77379b3bf68c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "676abd11-067c-8002-ab3a-a5b0992257e9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67682122-a388-8002-a2e7-0dbeee4c42d6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "676503ff-20dc-8002-8996-5d7e2f4920bf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6764f938-6b98-8002-bd0a-5f7458e94d5c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6752dd31-497c-8002-b70f-8b6301b86f6b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67555543-001c-8002-a755-36145ebab5ae"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "675351e0-9a48-8002-8863-e198fbce31e2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "674ed3d1-40b0-8002-894e-e97fee6fa526"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67590ac6-f0dc-8002-a6cd-50e157faf46f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "674c0f86-14b4-8002-a7bf-0f4947874d2c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "674bfe54-a3d8-8002-ae77-0e769b0ea4e5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "674a8ac0-fd1c-8002-9644-d5173b1f275a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6749e9bf-62c4-8002-9b5d-828090d92089"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67486069-23ac-8002-8350-09181f6dbed2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "674453b0-1798-8002-a27e-901c8ef1b84f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67442014-5100-8002-85d7-4382983f44b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6743131b-6838-8002-89d6-0dbf123a0560"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "673f2bdb-205c-8002-9e69-80e2d3180131"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67427059-e5bc-8002-a09e-37cf1df07464"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "673dc163-860c-8002-a4b0-1449c59810f4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6738b5bb-5808-8002-88d5-73cf1eb429bc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6733b2a3-57cc-8002-b406-6dfefdafb9e7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67336afd-de48-8002-96bc-8461f38ca0b4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "673ec91a-3170-8002-9ce9-32bce9b4433c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6732d51a-62b8-8002-979c-9f6e6323ac1a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6731d726-d688-8002-9372-a90fb0bab5de"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6733b1ab-cbc8-8002-810c-ec6359d8ac78"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "672f5e6c-d24c-8002-a97d-040de060c321"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "672ca21d-8c04-8002-aa88-40ada6ec009c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6729ec67-b690-8002-987a-544c1d37a4a6"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6726729a-0f9c-8002-9646-54c8d743f7fc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6725e36a-0c10-8002-89cd-c654c6587af2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6724eb3f-9a58-8002-9a84-c9dd29b0394e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "672c555a-a830-8002-962f-bb11a7c4b519"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6724a9b7-b4dc-8002-bc6f-3ee455aff8d1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67213980-78cc-8002-a81c-5ced66cef24b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "671e208c-e568-8002-be7e-2ac508e4dec4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6724d525-f3e8-8002-9e80-4e94284f422f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "670d336e-32f4-8002-9a0d-c63af4f22b1d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "670a3254-b77c-8002-a276-4da2f7617246"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6717ee9d-7d60-8002-a23c-1a694977cec0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6708522d-85a8-8002-a2bb-9c085308c485"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67062b28-76e8-8002-a52d-d583e31f0ed5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "670234d1-bdd4-8002-a447-4564a0e3cdf1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "67173acf-72dc-8002-970f-9c70eb2cfc0b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66fe59ce-81ec-8002-99ae-ff4bfe6dfe56"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66f68580-b77c-8002-a7b2-0ac75728e4ba"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66f59b65-cffc-8002-bc0f-7f2abda78cf5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66f41b08-0920-8002-aa29-b5049c1f028a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66f01bbd-9f04-8002-a1bb-0a33ffcffca2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66ed85a2-bb44-8002-bf4c-4e227f4d7d3e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66eae245-9b2c-8002-8e39-a945530f000f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66e0622d-2f60-8002-91ff-07f331fd6371"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66de1f1c-2fdc-8002-97b3-f0d1badf9b2b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66d8b07a-db5c-8002-99cb-add8aec26cb9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66dc73bf-71cc-8002-b1ed-e572fcd5201f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b931283b-0b51-487c-ba0c-f46b819108cc"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "18dd6d85-3df5-4953-b1dd-a5bd6a9332cd"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "cac853d1-e132-4c55-940e-74fc405ded7a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "66d9786e-c210-8002-aadd-70335f58d5eb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "198f8166-ee6d-47ef-b992-ef4b276a10d3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d1a0bd9d-8377-4208-916c-3985cf27f6ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f82fc020-3432-4644-babc-25ad0d00f933"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0e624824-b909-432a-8477-43271b6586f8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "5d2c4488-4afd-438a-ba56-2148771fc2b5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "43ec2764-a74f-4438-9c99-651786b17985"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "3e584e08-ebef-4ef0-9378-ff0da7a0a00b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "946160c0-ee5b-4a68-aed9-4f2d9972f014"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "afea71a5-86bc-40e8-afb6-55ee9a486161"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "dbbd8986-e8c6-430c-9a74-8b8075a1f291"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b439157e-64a9-4ca6-b6a8-e9e33cfff5ba"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "c2887b54-a0e1-461f-b911-9980f24f4f9f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "55db572e-fc8f-4449-b2ae-05184624467c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "212bb4d3-54a6-4884-a4ee-43f1f5306f3a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "183547ff-d424-454c-b1aa-9664936d3f38"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8cfa3be4-9c70-4f51-9664-4b0fd0877006"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "9f90e536-c0a8-4807-a466-e46030ed2027"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ba85a85f-7b0c-4bfe-b2c3-d1136e44df71"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "2d84a1f6-437b-4bb8-8bfd-c70647c1a967"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ff757b12-5d26-4110-9cb4-e8f791575db2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e93edf87-e72c-485d-8e53-6cd13e259e04"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "54f0ed75-85c1-455b-be9f-c9f642064e2b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ea268f87-8c75-4610-b0b4-779b43135fab"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "a6001822-85e8-4503-99ba-e7dc4e7e08ce"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "7274357b-9868-497f-8810-a86fe4d3ea43"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6e1bf9a8-d418-4fc8-a9bc-0d0b757ed2b9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "9168f491-4345-4e75-9045-8c38ad0a930f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "55f1cc3e-2ebf-401f-b798-d11f40525a2a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "028979e9-e0cc-4895-b0b0-4949794a9935"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e9082b6e-39a7-4776-9c32-38eaa069b4d8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "980b1861-7224-4d50-b49e-4f079d94be1e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "a6f2a26d-ee05-45cc-ab95-a1c8b5ef30ae"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "abb17dbe-6062-47cd-aa9e-5f4a8e189ddf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "68d8c6ee-452c-44e7-84e3-376eddf1462d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f07a9a5b-f2d7-43e5-a0da-77e1edbb5bfe"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f8164af9-bba7-436d-95b2-1fa5262410d4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "180ad689-e898-4d53-bae8-6374c2dd1525"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "773897a5-08d4-4a9c-b562-ad167fb59dc2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e007568f-ee37-4497-9e34-0fa479848b8f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "91d22f61-5992-440d-ae60-e2b93a11ff61"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e6e65fca-e0e8-4a55-8226-a06854650692"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b8051494-9743-45d8-af62-aa1e636933fb"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d3cfe684-6cd9-47b7-b2c1-eb3914a44f7e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "652977d5-f13f-4594-8645-38b9b20aa5f2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "86dc8d3a-8333-4a16-926a-152d82927918"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d8ede54a-9c3a-4461-8a53-bde485504aa3"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f00f1a0d-d110-41ab-87ac-90c1c0853576"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "56d348ff-25cb-439c-8c5e-365f16646e4a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8d17b5fd-c5d4-4923-9d1c-3a698ce3908c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e5b81d04-eec4-4c6f-9f30-835000bcc432"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b11a5d03-ddfc-4ee2-a92c-e5d8a0efc4b1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "78b5406f-a952-4b0f-9413-bcd996c792c2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "7a50a2ff-a197-4692-808d-d5152e0fbb02"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "2170621e-719f-44c3-90cb-d9f6b5ad9231"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "478d6beb-f5f6-41da-be50-456b4b01d188"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0cfac6b1-a36b-416e-b9a8-e0a60dfced91"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "755c88a0-d20e-470e-b7af-f639209f060b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "c02f16b0-c2bc-483c-a7c0-7d8dd9b553b5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "bb9a30c1-3477-4f05-855c-844faf3473ec"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d840713b-e093-461b-9fcc-d163e5470b57"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "09f5f59d-211d-4fd7-8960-3707e0f5d15e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "08c5af2a-f43a-4245-9c9f-2dde489cef98"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "e94ca74b-865d-40c8-803c-acc2a4bb7ca7"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "6401a388-edec-42b2-ab78-e6df7b73980c"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "587b4227-a392-4bbe-9da7-688ab584284d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "bafce1c1-2ae6-445f-aa6e-0ba8ae9f307d"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "4b964a6a-48be-4eea-91bc-5fb99798ae49"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "2b385380-aa9f-4138-9a49-51f6a3554edf"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "fbd123b8-4f5c-4e2c-b693-1b4a5bc916b8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "d88d5337-5e41-412b-a3e5-3ed8d1463a77"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "37213132-c139-4c6c-8781-9d4d4da54274"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "70021cb0-40ac-4fe4-a663-76c771acf035"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8f38f3da-2f8e-4e75-b826-bf1ed630794a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "fe6cde06-e9c3-4b5e-bf38-9bcb72472d27"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ce65e8c4-2099-472f-919b-0effe24bbe6b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "cc2cae5c-0e77-4b8b-8612-ddf3064fc527"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f55a5b31-8283-4f1e-97ba-afd3a80e284a"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "f92859d1-1750-474e-b53d-6b51ec9c3b03"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0ffdaae4-cb91-46e3-9de1-d1ea52543ae4"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "ab150d35-be8f-4907-a1ed-6555f39db95e"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "161183a7-4894-4cf9-b32b-3fc6344d60d1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "effb0df4-c6c5-419a-bf7b-e96752197c3f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "30029367-785d-43ce-89f8-0437e4d5e267"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "fc5fc1e6-bbce-4dd9-8d54-22bfa2f9dcf1"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "60a11f64-60ee-4653-9369-a329233a5b2f"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "4734ae41-c0c4-4ca7-8b28-ee672c6b2cf5"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8a4ad3b1-0c4c-4368-9180-3c97cc9c0d54"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b6328fe7-fb5b-4602-97e3-d5d68ff4a7e0"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "2468d728-6ddb-43d0-bcee-29a35bde0fb9"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "9f43240f-1ada-4c23-baaa-3172e7f441db"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "33af0a4e-7fa6-4bd4-8d69-20b8d2427b33"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "0731b1cc-9fc8-4d92-aefc-d020e58af5c8"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "12132027-4426-40a8-b333-6fd65c824a71"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "b30e8902-bb0a-4223-b083-f3edfd5423c2"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "8f3607f2-16c0-4f67-b048-8054dc58c31b"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "34c7d2b6-f79a-4f7b-925c-4618ec46e150"
+    },
+    {
+      "error": "claude_cli failed rc=1: ",
+      "session_id": "5dae421e-479f-4045-a5ba-fc7601bd300c"
+    }
+  ],
+  "model": "sonnet",
+  "provider": "claude_cli",
+  "run_id": "backfill-20260207T192956Z",
+  "schema_version": "diagnose-api-errors.v1"
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-01-24T11:48:22.948931+00:00",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519886+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "6974b173-1f38-832c-a4d7-5369fec77984",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W04",
+  "what_happened": [
+    "Session captured with 1 turns and source=chatgpt"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "6974b173-1f38-832c-a4d7-5369fec77984",
+          "snippet": "当我设计了一个GPTs之后如何在项目中长期使用它",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}

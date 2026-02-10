@@ -1,0 +1,9 @@
+{
+  "dry_run": false,
+  "generated_at": "2026-02-07T06:30:13.519181+00:00",
+  "note": "Provider-agnostic API adapter placeholder. Use manual mode for high-fidelity analysis.",
+  "provider": "anthropic",
+  "run_id": "run-20260207-full",
+  "schema_version": "diagnose-api-preview.v1",
+  "session_count": 50
+}

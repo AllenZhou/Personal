@@ -1,0 +1,2056 @@
+{
+  "run_id": "run-20260207-full",
+  "schema_version": "session-mechanism-batch.v1",
+  "sessions": [
+    {
+      "created_at": "2026-02-05T20:09:34.267Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519785+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c2f6c-a13b-7cb3-b747-d5466262cd82",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W06",
+      "what_happened": [
+        "Session captured with 22 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c2f6c-a13b-7cb3-b747-d5466262cd82",
+              "snippet": "# Context from my IDE setup: ## Active file: dmcc_scraper.py ## Open tabs: - dmcc_scraper.py: dmcc_scraper.py - agent-system-design.md: agent-system-design.md ## My request for Cod",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-04T21:11:13.270Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519794+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W06",
+      "what_happened": [
+        "Session captured with 3 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55",
+              "snippet": "项目结构 wecom-dify-bot/ ├── Dockerfile ├── docker-compose.yml └── .env 只需要这3个文件！ 1. 创建项目目录 bashmkdir -p ~/wecom-dify-bot cd ~/wecom-dify-bot 2. 创建 .env 文件 bashnano .env env# 企业微信配置 CO",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-04T08:19:31.939Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519797+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W06",
+      "what_happened": [
+        "Session captured with 20 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a",
+              "snippet": "帮我写一个脚本把这些文档用DIfy知识库API传到知识库中，分段模式递归分割适合法律文本的层级结构分段长度1000保留足够的法律条款上下文重叠长度300保持条款间的连贯性清理规则启用移除多余空白和格式符。每次只能索引两个，成功之后再传下一批。已经传上去的不要重复传。你有需要澄清的问题吗？",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-02T19:16:06.916Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519799+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "0e5519e3-1977-439f-9013-dc235ee63b43",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W06",
+      "what_happened": [
+        "Session captured with 583 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "0e5519e3-1977-439f-9013-dc235ee63b43",
+              "snippet": "分析这个项目",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-02T18:34:03.018Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519802+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "17ee21f9-6802-41a1-881a-e41bd62e0187",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W06",
+      "what_happened": [
+        "Session captured with 406 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "17ee21f9-6802-41a1-881a-e41bd62e0187",
+              "snippet": "<ide_opened_file>The user opened the file /Users/allenzhou/projects/UAE公司注册资料库/源数据/官方价目表链接汇总.md in the IDE. This may or may not be related to the current task.</ide_opened_file> 重新",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-02T07:13:23.974Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519804+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "e866da87-b20c-45de-93e2-9e176098df43",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W06",
+      "what_happened": [
+        "Session captured with 200 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "e866da87-b20c-45de-93e2-9e176098df43",
+              "snippet": "## DMCC 爬虫任务简报 ### 目标 爬取 https://dmcc.ae/business-directory 全部公司数据（A-Z，约 1000+ 页） ### 网站结构 - **URL 模式**: `https://dmcc.ae/business-directory?letter=A&page=1` - **数据位置**: 在 iframe 内",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T20:10:43.543Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519805+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "3dc7d9fa-4ad5-4f4e-8a53-3ea6f6ff8f17",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 498 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "3dc7d9fa-4ad5-4f4e-8a53-3ea6f6ff8f17",
+              "snippet": "重新分析这个项目",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T20:06:21.708Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519807+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "ea72b8a7-ca06-4276-bbb5-29484382fc58",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 2 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "ea72b8a7-ca06-4276-bbb5-29484382fc58",
+              "snippet": "分析conversation-insights这个工程",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T18:52:11.980049+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519809+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "38f8b99b-12fa-4672-abda-8768d68938a4",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 1 turns and source=claude_web"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "38f8b99b-12fa-4672-abda-8768d68938a4",
+              "snippet": "我如何导出桌面端Claude的对话",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T14:02:48.221171+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519810+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "65bbe90e-b92d-4e0d-abfd-6003018d3297",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 1 turns and source=claude_web"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "65bbe90e-b92d-4e0d-abfd-6003018d3297",
+              "snippet": "黄骨鱼炖豆腐做法",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T13:46:20.678118+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519812+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "5b00cab4-76ab-4c9c-9f7b-3000ca6c07ec",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 7 turns and source=claude_web"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "5b00cab4-76ab-4c9c-9f7b-3000ca6c07ec",
+              "snippet": "Chat, coworker, code这几个工具分别什么时候使用？还有它们可以相互配合吗",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T13:25:24.318839+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519813+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "7074c8bd-8530-4735-a037-1ce38195bec2",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 12 turns and source=claude_web"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "7074c8bd-8530-4735-a037-1ce38195bec2",
+              "snippet": "ChatGPT和Claude各自擅长什么？",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-02-01T09:19:09.566892+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519817+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "9a8fd278-eb59-4903-8ef0-2f93e3e4396b",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 33 turns and source=claude_web"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "9a8fd278-eb59-4903-8ef0-2f93e3e4396b",
+              "snippet": "以下是我给chatgpt设置的system propomt，给出评审意见：你是一个受控的推理与信息整理系统，不是决策者或判断主体。 你的首要目标是：可验证性、边界清晰、风险可控。 完整度优先于简洁性；准确性优先于流畅性；求证优先于结论。 ==================== 【任务识别（强制）】 在回答前，必须识别并声明用户问题的类型： A 事实/数据 ",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-31T08:08:14.417Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519819+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "eed603c8-d37b-43d9-a135-3a48b8fd99e1",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 409 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "eed603c8-d37b-43d9-a135-3a48b8fd99e1",
+              "snippet": "<ide_selection>The user selected the lines 210 to 210 from /Users/allenzhou/projects/skills/skills/uae-legal-compliance-research/output/by-organization/federal_core/2026-01-29-fede",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T23:05:57.974Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519821+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "a1431878-0a5c-4a04-ab26-338155bc2d31",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 134 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "a1431878-0a5c-4a04-ab26-338155bc2d31",
+              "snippet": "<command-message>uae-legal-compliance-research</command-message> <command-name>/uae-legal-compliance-research</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T22:58:22.065Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519822+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "72bd6650-ee38-4a4c-b6bd-bcece01c7838",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 2 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "72bd6650-ee38-4a4c-b6bd-bcece01c7838",
+              "snippet": "<command-name>/plugin</command-name> <command-message>plugin</command-message> <command-args></command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T22:48:59.253Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519825+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "3a9e455f-b34b-48a4-af07-361624619bdb",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 2 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "3a9e455f-b34b-48a4-af07-361624619bdb",
+              "snippet": "<command-name>/plugin</command-name> <command-message>plugin</command-message> <command-args></command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T22:28:51.295Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519827+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c06b9-45df-72b1-9b2e-fd4554ae652f",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 1 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c06b9-45df-72b1-9b2e-fd4554ae652f",
+              "snippet": "You are a helpful assistant. You will be presented with a user prompt, and your job is to provide a short title for a task that will be created from that prompt. The tasks typicall",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T22:28:51.168Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519829+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c06b9-4560-7ae3-804a-22464a15cf8a",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 135 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c06b9-4560-7ae3-804a-22464a15cf8a",
+              "snippet": "# Context from my IDE setup: ## Active file: skills/uae-legal-compliance-research/SKILL.md ## Open tabs: - SKILL.md: skills/uae-legal-compliance-research/SKILL.md - scan-progress.y",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T21:50:28.094Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519830+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "24b3c704-5ee8-4d1f-ae68-036485fbb2de",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 8 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "24b3c704-5ee8-4d1f-ae68-036485fbb2de",
+              "snippet": "Unknown skill: UAE",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T21:23:48.827Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519832+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "92de913d-02bf-4503-993d-68c99987fa5b",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 169 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "92de913d-02bf-4503-993d-68c99987fa5b",
+              "snippet": "<ide_opened_file>The user opened the file /Users/allenzhou/projects/skills/skills/uae-legal-compliance-research/SKILL.md in the IDE. This may or may not be related to the current t",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T21:03:35.133Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519834+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "e720ef88-e946-4924-b488-9fada5ac221c",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 31 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "e720ef88-e946-4924-b488-9fada5ac221c",
+              "snippet": "<command-name>/plugin</command-name> <command-message>plugin</command-message> <command-args></command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T20:40:25.978Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519836+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "f0f17ebe-6134-4f1d-8c91-c1b16e2ea6ce",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 8 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "f0f17ebe-6134-4f1d-8c91-c1b16e2ea6ce",
+              "snippet": "<command-name>/plugin</command-name> <command-message>plugin</command-message> <command-args></command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T20:28:14.770Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519838+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "276f24f0-e9a7-40b2-a8c8-64d26b966248",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 4 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "276f24f0-e9a7-40b2-a8c8-64d26b966248",
+              "snippet": "<command-name>/plugin</command-name> <command-message>plugin</command-message> <command-args></command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T17:19:20.168865+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519839+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "593c2c78-8696-419c-8298-a132f71324df",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 2 turns and source=claude_web"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "593c2c78-8696-419c-8298-a132f71324df",
+              "snippet": "Claude code自动运行的代码是在虚拟机还是在本地运行",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T16:56:33.006Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519842+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "0716662a-cf68-4293-b3f8-3bdfb89f7d2e",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 1 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "0716662a-cf68-4293-b3f8-3bdfb89f7d2e",
+              "snippet": "Unknown skill: uae-bk",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T13:17:41.560Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519844+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "8a2baf38-d492-4f36-8ec3-d65f4f481295",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 351 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "8a2baf38-d492-4f36-8ec3-d65f4f481295",
+              "snippet": "<command-name>/plugin</command-name> <command-message>plugin</command-message> <command-args></command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T11:11:33.325Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519846+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c044d-2fcd-7933-b051-1c5db1aeab86",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 1 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c044d-2fcd-7933-b051-1c5db1aeab86",
+              "snippet": "You are a helpful assistant. You will be presented with a user prompt, and your job is to provide a short title for a task that will be created from that prompt. The tasks typicall",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-28T11:11:33.244Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519848+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c044d-2f7c-7191-b4dd-1d4b23b84326",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 46 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c044d-2f7c-7191-b4dd-1d4b23b84326",
+              "snippet": "# Context from my IDE setup: ## Active file: CODEOWNERS ## Open tabs: - CODEOWNERS: CODEOWNERS - CODE_OF_CONDUCT.md: CODE_OF_CONDUCT.md - CLAUDE.md: CLAUDE.md - mcp.json: .cursor/m",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T23:28:03.534Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519851+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "dd81b6d7-ce60-404a-9acb-512b0c889e3f",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 55 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "dd81b6d7-ce60-404a-9acb-512b0c889e3f",
+              "snippet": "<command-message>kb_run</command-message> <command-name>/kb_run</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T23:12:50.131Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519852+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "a3652328-e796-4812-aa7f-691893310608",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 37 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "a3652328-e796-4812-aa7f-691893310608",
+              "snippet": "<command-message>kb_run</command-message> <command-name>/kb_run</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T22:50:39.700Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519854+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "79fefb5c-715c-422b-9fe9-8e8b0282832b",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 53 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "79fefb5c-715c-422b-9fe9-8e8b0282832b",
+              "snippet": "<command-message>kb_run</command-message> <command-name>/kb_run</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T22:09:56.599Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519856+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "c60c79c6-6d5e-4176-8428-0419833cfbc1",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 35 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "c60c79c6-6d5e-4176-8428-0419833cfbc1",
+              "snippet": "<command-message>kb_run</command-message> <command-name>/kb_run</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T21:50:12.954Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519859+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "bdb4d837-ada3-4907-9633-c298a3262727",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 52 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "bdb4d837-ada3-4907-9633-c298a3262727",
+              "snippet": "执行 kb_run，全流程自动运行并输出 review 报告。",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T19:43:43.439Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519861+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c00fb-bb4f-7822-b2e8-98e57150f245",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 154 turns and source=codex"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "019c00fb-bb4f-7822-b2e8-98e57150f245",
+              "snippet": "我希望UI友好的不是网页，是一个markdown表格",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T19:36:58.031Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519863+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "40b3d09f-ff83-490d-99d9-0327ae4703ff",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 3 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "40b3d09f-ff83-490d-99d9-0327ae4703ff",
+              "snippet": "！ls",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T15:59:33.927Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519865+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "d9d8b468-ef31-48d1-8c0f-fe19ddc6eea1",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 91 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "d9d8b468-ef31-48d1-8c0f-fe19ddc6eea1",
+              "snippet": "Implement the following plan: # Agent Skills 架构重设计 ## 目标 将当前的\"提示词模板\"改造为基于 **Claude Code + MCP** 的可运行 Agent，支持人机协作。 --- ## 架构概览 ``` ┌────────────────────────────────────────────────",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-27T15:47:52.831Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519867+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "a4467d63-f095-4b8c-9dfe-180962ecfef7",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W05",
+      "what_happened": [
+        "Session captured with 17 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "a4467d63-f095-4b8c-9dfe-180962ecfef7",
+              "snippet": "ls!",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-25T15:19:12.027Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519869+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "98323d5f-e89d-4b64-96a8-41847f4ac10d",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 22 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "98323d5f-e89d-4b64-96a8-41847f4ac10d",
+              "snippet": "<command-message>ai-lesson</command-message> <command-name>/ai-lesson</command-name> <command-args> AI</command-args>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-25T13:39:10.447Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519871+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "d45f19db-591c-4b6b-b564-e8fb85670b9a",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 5 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "d45f19db-591c-4b6b-b564-e8fb85670b9a",
+              "snippet": "<command-message>ai-lesson</command-message> <command-name>/ai-lesson</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-25T13:25:13.809Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519873+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "b6c132b3-f147-41fe-90cf-ea6e27b70095",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 10 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "b6c132b3-f147-41fe-90cf-ea6e27b70095",
+              "snippet": "<command-message>ai-lesson</command-message> <command-name>/ai-lesson</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-25T13:18:53.662Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519875+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "ed01f0fd-1797-4fd2-8113-1d099124e1e8",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 7 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "ed01f0fd-1797-4fd2-8113-1d099124e1e8",
+              "snippet": "<command-message>ai-lesson</command-message> <command-name>/ai-lesson</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-25T12:51:55.589Z",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519876+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "b9303ce5-7a6b-4003-8f9b-c6fe20c53ceb",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 9 turns and source=claude_code"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "b9303ce5-7a6b-4003-8f9b-c6fe20c53ceb",
+              "snippet": "<command-message>ai-lesson</command-message> <command-name>/ai-lesson</command-name>",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-25T09:42:51.682886+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519878+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "6975e59a-f148-838d-bdfe-32bbf57f3375",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 9 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "6975e59a-f148-838d-bdfe-32bbf57f3375",
+              "snippet": "如果我只是想用Apple Watch来监测我的运动情况、健康,你推荐我买哪一个?",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-24T19:17:14.099823+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519880+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "69751ab0-ff58-8331-a275-ef0a2157db54",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 1 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "69751ab0-ff58-8331-a275-ef0a2157db54",
+              "snippet": "中国平均寿命的增长率近二十年。",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-24T12:29:43.513798+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519882+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "6974bb34-f330-832f-9c0b-46525f110a30",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 12 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "6974bb34-f330-832f-9c0b-46525f110a30",
+              "snippet": "你的身份是一名【掌握科学教育方法的领域型老师（Master Teacher）】， 同时承担学习陪练的职责。 你不是流程监督者，也不是单纯的答疑工具， 而是一名对“如何教、何时推进、是否达标”负最终责任的老师。 ======================== 【0｜职责边界（先明确清楚）】 ======================== - 我负责提供： ",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-24T12:15:23.341913+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519884+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "6974b7d8-c850-8328-be59-a12056a5a446",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 2 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "6974b7d8-c850-8328-be59-a12056a5a446",
+              "snippet": "# 学习陪练 你是我的【学习陪练 Agent】。 你的职责不是教学、不是聊天，而是： 在不被我即时问题干扰的前提下， 运行一套基于认知科学、教育心理学与行为科学的【学习支持系统】。 # ======================== 【0｜总原则（不可违背）】 - 学习流程由你主导，我的问题不得打断既定主线 - 不进行善意评判、不安抚情绪、不拟人化表达 -",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-24T11:48:22.948931+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519886+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "6974b173-1f38-832c-a4d7-5369fec77984",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 1 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "6974b173-1f38-832c-a4d7-5369fec77984",
+              "snippet": "当我设计了一个GPTs之后如何在项目中长期使用它",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-24T11:47:31.090329+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519888+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "6974b151-7044-832f-9e6e-b197ea7db324",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 1 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "6974b151-7044-832f-9e6e-b197ea7db324",
+              "snippet": "我们开始一段学习",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-24T11:34:04.745464+00:00",
+      "generated_by": {
+        "engine": "api",
+        "generated_at": "2026-02-07T06:30:13.519889+00:00",
+        "model": "mock-adapter",
+        "provider": "anthropic",
+        "run_id": "run-20260207-full"
+      },
+      "how_to_improve": [
+        {
+          "action": "Run diagnose-session skill with full transcript context",
+          "expected_gain": "Higher confidence mechanism insights",
+          "trigger": "Need deeper manual diagnosis",
+          "validation_window": "next-7-days"
+        }
+      ],
+      "labels": [
+        "api-mock"
+      ],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "6974adfc-4d78-8330-9d1d-7a03946c0398",
+      "summary": "API mock output. Replace with real Skill inference before production use.",
+      "week": "2026-W04",
+      "what_happened": [
+        "Session captured with 6 turns and source=chatgpt"
+      ],
+      "why": [
+        {
+          "confidence": 0.2,
+          "evidence": [
+            {
+              "session_id": "6974adfc-4d78-8330-9d1d-7a03946c0398",
+              "snippet": "我需要一个提示词，用来设计一个学习陪跑，用提示词工程最新的技术优化我下一条给你提示词",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": "Mock inference placeholder"
+        }
+      ]
+    }
+  ]
+}

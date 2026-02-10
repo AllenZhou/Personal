@@ -1,0 +1,9 @@
+{
+  "applied_at": "2026-02-07T17:51:12.612017+00:00",
+  "created": 1,
+  "records_valid": 1,
+  "result_file": "/Users/allenzhou/MIRISE/agents/conversation-insights/output/skill_jobs/claude-cli-smoke-20260207/api_claude_cli_results.json",
+  "run_id": "claude-cli-smoke-20260207",
+  "schema_version": "diagnose-apply-summary.v1",
+  "updated": 0
+}

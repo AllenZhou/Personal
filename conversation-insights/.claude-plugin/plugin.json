@@ -1,0 +1,23 @@
+{
+  "name": "conversation-insights",
+  "version": "1.0.0",
+  "description": "AI 对话分析系统。分析多平台（Claude Code / ChatGPT / Codex / Gemini / Claude.ai）对话记录，提取使用习惯、思维模式、决策偏好和协作效率指标，所有数据存储在 Notion 中。",
+  "author": {
+    "name": "Allen Zhou"
+  },
+  "keywords": [
+    "conversation",
+    "insights",
+    "analysis",
+    "notion",
+    "chatgpt",
+    "claude",
+    "codex",
+    "gemini",
+    "ai-usage",
+    "productivity"
+  ],
+  "license": "MIT",
+  "skills": ["./"],
+  "commands": ["./SKILL.md"]
+}

@@ -1,0 +1,72 @@
+{
+  "coverage": {
+    "sessions_total": 1991,
+    "sessions_with_mechanism": 24
+  },
+  "generated_at": "2026-02-10T12:30:00Z",
+  "guardrails": [
+    "Every root-cause hypothesis must include concrete evidence.",
+    "Do not infer psychological state without textual support."
+  ],
+  "period_id": "rolling_all-time",
+  "reports": [
+    {
+      "conversations_analyzed": 3,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：机制默认把契约校验置于解题之前，导致多轮互动被折叠成单轮确认。",
+        "证据簇：019c3c13 与 019c3c18 展现“契约驱动输出”即时收敛，69070c74 暴露缺少主题连贯确认的副作用。",
+        "动作：执行“预置可选扩展指令 + 生成前契约检查清单”组合；验证窗：2026-02-24 前抽样10条单轮会话比对 turn 深度与追问率。"
+      ],
+      "dimension": "interaction-contract",
+      "key_insights": "严格格式契约被前置为“主任务”，助手倾向交付极短回应并提前结束回合，压缩了澄清与协作空间。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - 互动契约 L3"
+    },
+    {
+      "conversations_analyzed": 9,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：缺少任务要素的简短指令被模型解读为需快速闭环答案，未能触发澄清模板。",
+        "证据簇：从685a41fb 至 69031aee 等9条会话均呈现“少上下文 + 直接回传结论”，伴随主线漂移与终止。",
+        "动作：统一先发澄清问题包（1句任务确认 + 2-4 个可选澄清项）；验证窗：2025-11-30 历史基线 vs 2026-02-29 新策略比较首轮长度与后续追问。"
+      ],
+      "dimension": "prompt-clarity",
+      "key_insights": "历史多批短提示会话持续触发“默认补全”与单轮探索，使助手以高先验猜测取代澄清，复现率高。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - 提示清晰度 L3"
+    },
+    {
+      "conversations_analyzed": 4,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：当用户初始输入含模糊路径或逐步扩需求时，助手缺少“变更单”式锁边流程。",
+        "证据簇：019c3475 的 scope 逐回合扩张、019c2a7e 的路径歧义、690360c4 的主线漂移及690a0151 的需求升级共同指向缺乏边界确认。",
+        "动作：强制插入“探索-规划-确认”并先产生一页变更单（目标/非目标/路径假设）；验证窗：2026-03-05 前监测至少15条多轮会话的边界维持率。"
+      ],
+      "dimension": "task-scoping",
+      "key_insights": "路径与范围在开场未被显式锁定，任务目标频繁重写，造成助手执行路径摇摆与成本外溢。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - 任务定界 L3"
+    },
+    {
+      "conversations_analyzed": 8,
+      "date": "2026-02-10",
+      "detail_lines": [
+        "机制变化：Agent 将“全量运行”误判为立即执行，且缺少对技能存在性与数据结构的启动前自检。",
+        "证据簇：019c00fb 的架构认知差异、019c06b9 与 24b3c704 的 skill loading failure、04b9fc38 的 execution model mismatch，以及4aa7f825/28247acc 的运行时失败共同佐证。",
+        "动作：在skill入口先扫描上下文关键词后执行“探索-规划-确认”，并在snapshot.py开头补 runtime schema 校验与API恢复指引；验证窗：2026-02-28 前跟踪新策略下的 skill error 关闭率。"
+      ],
+      "dimension": "skill-runtime-safety",
+      "key_insights": "技能加载与运行时校验机制缺口造成执行模式错配、数据管线故障与恢复回合 API crash，直接影响可信交付。",
+      "layer": "L3",
+      "period": "rolling_all-time",
+      "title": "增量根因假设 - 技能运行安全 L3"
+    }
+  ],
+  "schema_version": "incremental-mechanism.v1",
+  "source_run_id": "incremental-rolling_all-time"
+}

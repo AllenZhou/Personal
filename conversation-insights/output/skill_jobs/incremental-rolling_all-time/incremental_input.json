@@ -1,0 +1,2013 @@
+{
+  "coverage": {
+    "sessions_total": 1991,
+    "sessions_with_mechanism": 139
+  },
+  "generated_at": "2026-02-10T10:07:27.984082+00:00",
+  "period": {
+    "window": "all-time"
+  },
+  "period_id": "rolling_all-time",
+  "schema_version": "incremental-input.v1",
+  "sessions": [
+    {
+      "action_ref": "AI 在动手前必须先输出 2",
+      "created_at": "2026-01-27T19:43:43.439Z",
+      "labels": [
+        "architecture_refactoring"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "019c00fb-bb4f-7822-b2e8-98e57150f245#T21"
+        ],
+        "hypothesis": "用户对 Agent 技能实现方式存在认知差异：期望 Cl"
+      },
+      "session_id": "019c00fb-bb4f-7822-b2e8-98e57150f245"
+    },
+    {
+      "action_ref": "先扫描上下文关键词（outp",
+      "created_at": "2026-01-28T22:28:51.168Z",
+      "labels": [
+        "skill-loading-failure"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "019c06b9-4560-7ae3-804a-22464a15cf8a#T21"
+        ],
+        "hypothesis": "用户首次使用 Claude Code Skill 开发流"
+      },
+      "session_id": "019c06b9-4560-7ae3-804a-22464a15cf8a"
+    },
+    {
+      "action_ref": "助手主动询问：「你是希望我在",
+      "created_at": "2026-02-04T21:11:13.270Z",
+      "labels": [
+        "路径歧义-需澄清"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "019c2a7e-b676-77c0-9241-4a34f433da55#T1"
+        ],
+        "hypothesis": "用户第一次指令包含 `mkdir -p ~/wecom-"
+      },
+      "session_id": "019c2a7e-b676-77c0-9241-4a34f433da55"
+    },
+    {
+      "action_ref": "先产出一页变更单（目标、非目",
+      "created_at": "2026-02-06T19:37:26.958Z",
+      "labels": [
+        "范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "019c3475-94ae-7263-affe-c1c54a6712d9#T1"
+        ],
+        "hypothesis": "需求在会话中被连续重定义，导致任务边界扩张（scope "
+      },
+      "session_id": "019c3475-94ae-7263-affe-c1c54a6712d9"
+    },
+    {
+      "action_ref": "预置“可选扩展指令”约定（例",
+      "created_at": "2026-02-08T07:07:40.988Z",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "019c3c13-de3b-7af2-9a12-231a32f889ec#T1"
+        ],
+        "hypothesis": "对话机制由“格式约束优先”的指令遵从驱动，因此响应极短并"
+      },
+      "session_id": "019c3c13-de3b-7af2-9a12-231a32f889ec"
+    },
+    {
+      "action_ref": "在生成前执行一次“契约检查清",
+      "created_at": "2026-02-08T07:12:40.927Z",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "019c3c18-71df-7292-9562-00d07f22fcca#T1"
+        ],
+        "hypothesis": "会话快速收敛为“契约驱动输出”，因为用户把输出格式与证据"
+      },
+      "session_id": "019c3c18-71df-7292-9562-00d07f22fcca"
+    },
+    {
+      "action_ref": "强制插入「探索-规划-确认」",
+      "created_at": "2026-02-06T11:09:26.776Z",
+      "labels": [
+        "execution_model_mismatch"
+      ],
+      "mechanism": {
+        "confidence": 0.9,
+        "evidence_refs": [
+          "04b9fc38-0d00-433a-b074-d2ba4e590807#T1"
+        ],
+        "hypothesis": "Agent 将「全量运行」理解为「立即执行完整流程」,但"
+      },
+      "session_id": "04b9fc38-0d00-433a-b074-d2ba4e590807"
+    },
+    {
+      "action_ref": "客户端在提交前校验：若输入框",
+      "created_at": "2026-01-20T12:36:21.562548+00:00",
+      "labels": [
+        "empty_session"
+      ],
+      "mechanism": {
+        "confidence": 0.7,
+        "evidence_refs": [
+          "0d56e7e2-d32f-488c-a02c-0f1efbfad700#T1"
+        ],
+        "hypothesis": "用户误触发会话创建（如界面误点击或快捷键误操作）后立即关"
+      },
+      "session_id": "0d56e7e2-d32f-488c-a02c-0f1efbfad700"
+    },
+    {
+      "action_ref": "系统自动检查并返回诊断信息：",
+      "created_at": "2026-01-28T21:50:28.094Z",
+      "labels": [
+        "skill_loading_failure"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "24b3c704-5ee8-4d1f-ae68-036485fbb2de#T6"
+        ],
+        "hypothesis": "Skill 文件存在但未被 Claude Code 技能"
+      },
+      "session_id": "24b3c704-5ee8-4d1f-ae68-036485fbb2de"
+    },
+    {
+      "action_ref": "立即提示用户清空对话历史或开",
+      "created_at": "2026-02-05T19:49:30.302Z",
+      "labels": [
+        "api_error"
+      ],
+      "mechanism": {
+        "confidence": 0.95,
+        "evidence_refs": [
+          "28247acc-1b44-4963-89f4-ea7eadf16624#T14"
+        ],
+        "hypothesis": "Claude 在被中断后的恢复回合中，生成了包含 `th"
+      },
+      "session_id": "28247acc-1b44-4963-89f4-ea7eadf16624"
+    },
+    {
+      "action_ref": "在snapshot.py开头",
+      "created_at": "2026-02-06T14:03:21.336Z",
+      "labels": [
+        "data_pipeline"
+      ],
+      "mechanism": {
+        "confidence": 0.95,
+        "evidence_refs": [
+          "4aa7f825-ec59-419a-84e5-c98bd30c4d7e#T17"
+        ],
+        "hypothesis": "assistant在未验证运行时数据结构的情况下,基于代"
+      },
+      "session_id": "4aa7f825-ec59-419a-84e5-c98bd30c4d7e"
+    },
+    {
+      "action_ref": "先返回1句澄清问题：确认任务",
+      "created_at": "2025-06-24T06:13:15.978950+00:00",
+      "labels": [
+        "短提示输入"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "685a41fb-cac4-8002-bd0d-20a480003d9f#T1"
+        ],
+        "hypothesis": "用户输入普遍过短且缺少约束，触发助手用高先验猜测补全，造"
+      },
+      "session_id": "685a41fb-cac4-8002-bd0d-20a480003d9f"
+    },
+    {
+      "action_ref": "先返回3个可选澄清项（时间范",
+      "created_at": "2025-06-25T04:51:41.609613+00:00",
+      "labels": [
+        "单轮探索"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "685b805d-799c-8002-a44f-742bf3eb8e60#T1"
+        ],
+        "hypothesis": "输入过短且约束缺失，触发了模型的“默认补全”机制，导致回"
+      },
+      "session_id": "685b805d-799c-8002-a44f-742bf3eb8e60"
+    },
+    {
+      "action_ref": "在回答前增加一句范围确认：继",
+      "created_at": "2025-06-26T04:31:29.736565+00:00",
+      "labels": [
+        "短提示驱动"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "685ccd21-96e4-8002-a8ac-423e672c9e51#T1"
+        ],
+        "hypothesis": "用户采用连续追问且每次输入很短，机制上更容易沿“相关关键"
+      },
+      "session_id": "685ccd21-96e4-8002-a8ac-423e672c9e51"
+    },
+    {
+      "action_ref": "强制调用 WebSearch",
+      "created_at": "2025-10-21T19:29:57.796325+00:00",
+      "labels": [
+        "法律咨询合规性"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "68f7df1f-5578-832f-90dd-a8c2b37f863a#T2"
+        ],
+        "hypothesis": "assistant 未执行法律文档强制溯源验证机制"
+      },
+      "session_id": "68f7df1f-5578-832f-90dd-a8c2b37f863a"
+    },
+    {
+      "action_ref": "采用“定义一句话 + 与近邻",
+      "created_at": "2025-10-23T15:55:00.826886+00:00",
+      "labels": [
+        "学习型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "68fa4fca-acd8-8324-8b86-e395d2466dd4#T1"
+        ],
+        "hypothesis": "用户输入过短且目标未显式声明“要对比”，模型更容易走“单"
+      },
+      "session_id": "68fa4fca-acd8-8324-8b86-e395d2466dd4"
+    },
+    {
+      "action_ref": "在回答后附加引导性追问，例如",
+      "created_at": "2025-10-24T09:54:56.332160+00:00",
+      "labels": [
+        "单轮对话"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "68fb4ce1-b738-8325-a606-30c28311e65e#T1"
+        ],
+        "hypothesis": "用户处于初步调研阶段，尚未形成具体业务场景需求"
+      },
+      "session_id": "68fb4ce1-b738-8325-a606-30c28311e65e"
+    },
+    {
+      "action_ref": "先执行两步模板：1）一句话直",
+      "created_at": "2025-10-26T19:48:51.394975+00:00",
+      "labels": [
+        "学习型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "68fe7b1e-e7a4-832c-9718-21d378607d5e#T1"
+        ],
+        "hypothesis": "用户输入过短且缺少上下文，触发了助手的默认“词典式直答”"
+      },
+      "session_id": "68fe7b1e-e7a4-832c-9718-21d378607d5e"
+    },
+    {
+      "action_ref": "在输出通用信息前增加澄清问句",
+      "created_at": "2025-10-27T08:25:39.161044+00:00",
+      "labels": [
+        "single-turn"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "68ff2c69-19ac-832b-8387-e0f3334afe06#T1"
+        ],
+        "hypothesis": "用户查询过短(5字)且未包含业务意图(注册/合规/采购)"
+      },
+      "session_id": "68ff2c69-19ac-832b-8387-e0f3334afe06"
+    },
+    {
+      "action_ref": "在生成实质性答案前,先输出 ",
+      "created_at": "2025-10-29T16:17:39.038240+00:00",
+      "labels": [
+        "单轮终止"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "69023dec-005c-832d-9e3c-5c16d2651d17#T1"
+        ],
+        "hypothesis": "极简查询未触发需求澄清机制"
+      },
+      "session_id": "69023dec-005c-832d-9e3c-5c16d2651d17"
+    },
+    {
+      "action_ref": "首答采用“双层输出”：先给当",
+      "created_at": "2025-10-30T07:59:54.422140+00:00",
+      "labels": [
+        "单轮检索型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69031aee-4058-8330-a817-ff6697f7ab84#T1"
+        ],
+        "hypothesis": "输入过短且任务目标明确为“号码归属”，触发了直接给结论的"
+      },
+      "session_id": "69031aee-4058-8330-a817-ff6697f7ab84"
+    },
+    {
+      "action_ref": "先发2-4个关键澄清问题（治",
+      "created_at": "2025-10-30T12:58:12.471005+00:00",
+      "labels": [
+        "主线漂移"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "690360c4-2340-832f-85fc-ba7dbf932f9a#T2"
+        ],
+        "hypothesis": "主线目标未被显式锁定（疾病类型、预算、城市、监管要求），"
+      },
+      "session_id": "690360c4-2340-832f-85fc-ba7dbf932f9a"
+    },
+    {
+      "action_ref": "在回答前先输出确认语句:「注",
+      "created_at": "2025-11-02T07:47:27.640414+00:00",
+      "labels": [
+        "对话连贯性缺失"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "69070c74-5c38-8332-8561-49884535d4e4#T2"
+        ],
+        "hypothesis": "LLM 缺少「对话主题连贯性检测」机制,将每个 turn"
+      },
+      "session_id": "69070c74-5c38-8332-8561-49884535d4e4"
+    },
+    {
+      "action_ref": "先给最小可用答案，再补一行可",
+      "created_at": "2025-11-04T13:36:27.051640+00:00",
+      "labels": [
+        "医疗"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "690a0151-451c-832a-b59a-83f731ec29d7#T1"
+        ],
+        "hypothesis": "需求在会话内发生了“从事实查询到可复用说明文案”的自然升"
+      },
+      "session_id": "690a0151-451c-832a-b59a-83f731ec29d7"
+    },
+    {
+      "action_ref": "首轮回复前插入澄清问题：'您",
+      "created_at": "2025-11-05T07:16:56.474246+00:00",
+      "labels": [
+        "信息收集型对话"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "690af9e1-8ec8-8328-be64-c6d61333907a#T1"
+        ],
+        "hypothesis": "用户处于信息收集阶段，需要快速了解多个公司的基础信息，但"
+      },
+      "session_id": "690af9e1-8ec8-8328-be64-c6d61333907a"
+    },
+    {
+      "action_ref": "Assistant 先输出 ",
+      "created_at": "2025-11-05T10:33:18.769568+00:00",
+      "labels": [
+        "信息收集模式"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "690b27e6-7eac-8329-98a8-fe93af803b85#T1"
+        ],
+        "hypothesis": "用户处于信息收集模式而非决策模式,将 Assistant"
+      },
+      "session_id": "690b27e6-7eac-8329-98a8-fe93af803b85"
+    },
+    {
+      "action_ref": "自动插入验证提示:'此类信息",
+      "created_at": "2025-11-06T07:15:14.657667+00:00",
+      "labels": [
+        "tool-underuse"
+      ],
+      "mechanism": {
+        "confidence": 0.8,
+        "evidence_refs": [
+          "690c4af1-8d98-832c-8935-6e6d532b1141#T1"
+        ],
+        "hypothesis": "AI未意识到阿联酋金融监管信息属于需要实时验证的高风险领"
+      },
+      "session_id": "690c4af1-8d98-832c-8935-6e6d532b1141"
+    },
+    {
+      "action_ref": "先发1句澄清问题，提供3个可",
+      "created_at": "2025-11-06T08:36:10.933422+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "690c5df4-2e38-8330-82aa-3c3a52d29898#T1"
+        ],
+        "hypothesis": "输入过短且缺乏约束，触发了“实体词→百科式介绍”的默认响"
+      },
+      "session_id": "690c5df4-2e38-8330-82aa-3c3a52d29898"
+    },
+    {
+      "action_ref": "主动询问:'您的新问题与之前",
+      "created_at": "2025-11-07T11:16:21.801766+00:00",
+      "labels": [
+        "意图跳转未识别"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "690dd4ff-9548-8330-9fff-6d4aa7d62875#T2"
+        ],
+        "hypothesis": "系统将每轮对话视为独立任务,未检测到用户在 turn_i"
+      },
+      "session_id": "690dd4ff-9548-8330-9fff-6d4aa7d62875"
+    },
+    {
+      "action_ref": "先返回标准译法，再追问1个最",
+      "created_at": "2025-11-07T14:12:21.293696+00:00",
+      "labels": [
+        "短回合学习"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "690dfe38-0ba0-8330-8a59-ca400ef0932b#T1"
+        ],
+        "hypothesis": "用户请求粒度过小且上下文不足，触发了词典式回答机制，导致"
+      },
+      "session_id": "690dfe38-0ba0-8330-8a59-ca400ef0932b"
+    },
+    {
+      "action_ref": "固定先问3个澄清槽位：比较对",
+      "created_at": "2025-11-09T18:14:54.666174+00:00",
+      "labels": [
+        "研究问答"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6910da0e-84a0-832a-9617-c30631538b88#T1"
+        ],
+        "hypothesis": "首轮信息不充分导致先澄清再解答，这一机制提升了后续可回答"
+      },
+      "session_id": "6910da0e-84a0-832a-9617-c30631538b88"
+    },
+    {
+      "action_ref": "助手在首轮回复前插入澄清提示",
+      "created_at": "2025-11-10T08:54:09.760255+00:00",
+      "labels": [
+        "单轮终止"
+      ],
+      "mechanism": {
+        "confidence": 0.7,
+        "evidence_refs": [
+          "6911a826-2ef8-832a-8e62-9b09b8ebe11d#T1"
+        ],
+        "hypothesis": "用户已获得所需核心数字信息，无需进一步澄清"
+      },
+      "session_id": "6911a826-2ef8-832a-8e62-9b09b8ebe11d"
+    },
+    {
+      "action_ref": "先追加1个最小澄清问题，并给",
+      "created_at": "2025-11-11T05:27:31.604541+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6912c92c-59a4-832b-ba27-c4acaee8c80a#T1"
+        ],
+        "hypothesis": "需求约束不足（缺行业/目标/预算/城市），使“重要”标准"
+      },
+      "session_id": "6912c92c-59a4-832b-ba27-c4acaee8c80a"
+    },
+    {
+      "action_ref": "先用2-3个澄清问题锁定分析",
+      "created_at": "2025-11-11T11:28:48.934483+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69131de3-41b0-8328-964f-9a540479fce6#T1"
+        ],
+        "hypothesis": "需求表述过于简短且缺少约束，触发了默认的“百科式总览回答"
+      },
+      "session_id": "69131de3-41b0-8328-964f-9a540479fce6"
+    },
+    {
+      "action_ref": "先输出主译名，再追加一句用途",
+      "created_at": "2025-11-11T15:06:47.904315+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69135100-e850-832e-a293-298593c542ac#T1"
+        ],
+        "hypothesis": "会话由“明确指令+最小上下文”触发，系统优先走直译路径，"
+      },
+      "session_id": "69135100-e850-832e-a293-298593c542ac"
+    },
+    {
+      "action_ref": "在第3轮回复前强制插入澄清提",
+      "created_at": "2025-11-12T16:31:44.782950+00:00",
+      "labels": [
+        "信息密度失配"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "6914b655-555c-8331-904b-d3ec11994871#T1"
+        ],
+        "hypothesis": "用户处于法律认知探索阶段,采用'极简问句连发'策略快速获"
+      },
+      "session_id": "6914b655-555c-8331-904b-d3ec11994871"
+    },
+    {
+      "action_ref": "首轮输出后主动追问结构化需求",
+      "created_at": "2025-11-15T11:16:26.405319+00:00",
+      "labels": [
+        "单轮终止"
+      ],
+      "mechanism": {
+        "confidence": 0.45,
+        "evidence_refs": [
+          "69186104-8678-8330-8c48-d3efe3237578#T1"
+        ],
+        "hypothesis": "用户获得足够信息后自然离开（满意终止）"
+      },
+      "session_id": "69186104-8678-8330-8c48-d3efe3237578"
+    },
+    {
+      "action_ref": "先发1句澄清模板：是否要求偏",
+      "created_at": "2025-11-16T10:19:46.617319+00:00",
+      "labels": [
+        "隐含约束晚显化"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6919a528-e668-832d-86a1-91baf7eaba7e#T1"
+        ],
+        "hypothesis": "首轮未主动确认“对仗约束维度”（偏旁/词性/平仄），导致"
+      },
+      "session_id": "6919a528-e668-832d-86a1-91baf7eaba7e"
+    },
+    {
+      "action_ref": "先给“3项澄清问题（应用场景",
+      "created_at": "2025-11-17T13:38:49.560317+00:00",
+      "labels": [
+        "需求过短"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "691b2554-8010-832a-ba03-899471f98422#T1"
+        ],
+        "hypothesis": "初始需求过短且约束缺失，导致回答以“先铺清单”替代“先锁"
+      },
+      "session_id": "691b2554-8010-832a-ba03-899471f98422"
+    },
+    {
+      "action_ref": "先执行3槽位澄清：时间窗口、",
+      "created_at": "2025-11-18T07:20:49.286982+00:00",
+      "labels": [
+        "需求歧义"
+      ],
+      "mechanism": {
+        "confidence": 0.84,
+        "evidence_refs": [
+          "691c1e4b-34b8-8330-8e23-9f7ed63eb621#T1"
+        ],
+        "hypothesis": "首轮“安排”属于高歧义请求，未先澄清导致回答偏通用，降低"
+      },
+      "session_id": "691c1e4b-34b8-8330-8e23-9f7ed63eb621"
+    },
+    {
+      "action_ref": "强制执行需求澄清checkl",
+      "created_at": "2025-11-18T10:10:30.950309+00:00",
+      "labels": [
+        "过度推测用户需求"
+      ],
+      "mechanism": {
+        "confidence": 0.8,
+        "evidence_refs": [
+          "691c4600-00f8-8330-887e-58ee060bc4b8#T2"
+        ],
+        "hypothesis": "助手将'人物简介'解读为明确需求,触发了直接执行模式,跳"
+      },
+      "session_id": "691c4600-00f8-8330-887e-58ee060bc4b8"
+    },
+    {
+      "action_ref": "先追问2个最小澄清项（用途场",
+      "created_at": "2025-11-18T13:05:57.580199+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "691c6f34-2854-8331-b804-7cdef94ceb26#T1"
+        ],
+        "hypothesis": "关键词式提问触发了助手的默认科普模板，优先覆盖面而非定制"
+      },
+      "session_id": "691c6f34-2854-8331-b804-7cdef94ceb26"
+    },
+    {
+      "action_ref": "强制触发澄清流程:询问物业类",
+      "created_at": "2025-11-19T12:34:58.309464+00:00",
+      "labels": [
+        "信息逐步揭示"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "691db960-c78c-832d-829f-4d3c9059daff#T1"
+        ],
+        "hypothesis": "用户真实需求是办公选址决策,但初始问题描述不足(仅\"JL"
+      },
+      "session_id": "691db960-c78c-832d-829f-4d3c9059daff"
+    },
+    {
+      "action_ref": "强制插入澄清回合：「链家中介",
+      "created_at": "2025-11-21T07:10:23.816111+00:00",
+      "labels": [
+        "需求推测过度"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "69201052-a1d0-8327-8561-64b79a9985c8#T1"
+        ],
+        "hypothesis": "系统将「链家中介费」映射到高频查询模板（城市费率对比表）"
+      },
+      "session_id": "69201052-a1d0-8327-8561-64b79a9985c8"
+    },
+    {
+      "action_ref": "先用1句最小澄清模板补齐4要",
+      "created_at": "2025-11-26T09:47:53.695845+00:00",
+      "labels": [
+        "约束后置"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6926ccab-aa84-832f-a4a8-b4dac68721e4#T1"
+        ],
+        "hypothesis": "关键约束后置（POI在第2轮才给出）导致首轮建议与真实需"
+      },
+      "session_id": "6926ccab-aa84-832f-a4a8-b4dac68721e4"
+    },
+    {
+      "action_ref": "助手先用一句话标注“已切换到",
+      "created_at": "2025-11-27T09:47:39.483969+00:00",
+      "labels": [
+        "多主题切换"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69281e1f-c174-832f-9d98-111cf59de544#T1"
+        ],
+        "hypothesis": "该会话机制属于“按需提问+即时切题回答”，用户并不追问同"
+      },
+      "session_id": "69281e1f-c174-832f-9d98-111cf59de544"
+    },
+    {
+      "action_ref": "先发一条澄清：是否开启新任务",
+      "created_at": "2025-11-28T15:24:48.169941+00:00",
+      "labels": [
+        "话题切换未显式声明"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6929beb6-d704-8333-832f-468534006a8a#T1"
+        ],
+        "hypothesis": "用户在会话中主动切换任务，但未显式声明“新任务开始”，导"
+      },
+      "session_id": "6929beb6-d704-8333-832f-468534006a8a"
+    },
+    {
+      "action_ref": "先通过 2-3 个封闭式问题",
+      "created_at": "2025-11-30T13:29:43.485802+00:00",
+      "labels": [
+        "单轮终止"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "692c46a8-77d8-832d-a238-1c83ad5e3e27#T1"
+        ],
+        "hypothesis": "用户提问过于开放导致助手过度输出,消耗用户接收意愿"
+      },
+      "session_id": "692c46a8-77d8-832d-a238-1c83ad5e3e27"
+    },
+    {
+      "action_ref": "首条回复采用“双轨输出”：先",
+      "created_at": "2025-12-02T14:51:47.868292+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "692efcf6-fb94-8329-9081-2a410c86f7d8#T1"
+        ],
+        "hypothesis": "在信息不足且主题为过敏处理时，系统优先选择“安全覆盖型模"
+      },
+      "session_id": "692efcf6-fb94-8329-9081-2a410c86f7d8"
+    },
+    {
+      "action_ref": "先给1句直接答案，再追加1句",
+      "created_at": "2025-12-03T09:15:42.046254+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "692fffb4-588c-8332-bc12-8cfb787e3f30#T1"
+        ],
+        "hypothesis": "输入过短且缺少约束条件（地区、是否需要官方口径）时，系统"
+      },
+      "session_id": "692fffb4-588c-8332-bc12-8cfb787e3f30"
+    },
+    {
+      "action_ref": "先返回一行范围确认（定义/实",
+      "created_at": "2025-12-04T11:34:58.368529+00:00",
+      "labels": [
+        "学习型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "693171e1-cf78-832d-ba4e-a5320592f456#T1"
+        ],
+        "hypothesis": "会话高完成率主要来自“用户最小输入，助手最大化补全”的交"
+      },
+      "session_id": "693171e1-cf78-832d-ba4e-a5320592f456"
+    },
+    {
+      "action_ref": "在回答前插入一句分流确认：是",
+      "created_at": "2025-12-05T06:33:27.671699+00:00",
+      "labels": [
+        "多意图会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69327cb6-fd24-8332-af60-c59204a05943#T1"
+        ],
+        "hypothesis": "会话主因是用户主动多意图切换，导致单一任务链无法形成。"
+      },
+      "session_id": "69327cb6-fd24-8332-af60-c59204a05943"
+    },
+    {
+      "action_ref": "先补2个最小澄清项（如空气炸",
+      "created_at": "2025-12-05T21:47:37.129299+00:00",
+      "labels": [
+        "单轮完成"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "693352f8-1ed0-8332-b476-4bb1638b4985#T1"
+        ],
+        "hypothesis": "单轮即结束的核心机制是“任务边界清晰 + 难度低 + 期"
+      },
+      "session_id": "693352f8-1ed0-8332-b476-4bb1638b4985"
+    },
+    {
+      "action_ref": "先发最小澄清清单（主体类型、",
+      "created_at": "2025-12-06T08:20:40.041695+00:00",
+      "labels": [
+        "范围漂移"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6933e757-68a0-8328-8599-325c26ad55c8#T1"
+        ],
+        "hypothesis": "会话发生范围漂移：从“RAK费用核算”转为“泛化自由区推"
+      },
+      "session_id": "6933e757-68a0-8328-8599-325c26ad55c8"
+    },
+    {
+      "action_ref": "先给最短可用答案，再追加1句",
+      "created_at": "2025-12-08T12:10:36.931498+00:00",
+      "labels": [
+        "短提示词"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6936bffe-3e78-8329-b9a8-d20dcaa34012#T1"
+        ],
+        "hypothesis": "用户输入过短且信息密度低，触发助手默认“逐词翻译”路径，"
+      },
+      "session_id": "6936bffe-3e78-8329-b9a8-d20dcaa34012"
+    },
+    {
+      "action_ref": "立即进入“3问澄清”模板：预",
+      "created_at": "2025-12-08T16:47:39.382958+00:00",
+      "labels": [
+        "需求逐步收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69370116-1c50-8332-9c2b-c20bf93ec865#T1"
+        ],
+        "hypothesis": "会话未建立“先澄清约束再推荐”的分流步骤，导致每轮都重启"
+      },
+      "session_id": "69370116-1c50-8332-9c2b-c20bf93ec865"
+    },
+    {
+      "action_ref": "先回锚一句主目标，再给二选一",
+      "created_at": "2025-12-08T17:22:25.074342+00:00",
+      "labels": [
+        "主题漂移"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6937090e-7a5c-832b-b8a4-d5ce3bf36e7e#T1"
+        ],
+        "hypothesis": "会话目标未被锁定，用户连续换题导致主线任务漂移。"
+      },
+      "session_id": "6937090e-7a5c-832b-b8a4-d5ce3bf36e7e"
+    },
+    {
+      "action_ref": "先用一条澄清问题锁定口径（品",
+      "created_at": "2025-12-09T04:54:44.760483+00:00",
+      "labels": [
+        "需求澄清不足"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6937ab8a-0d28-8326-a3cc-dbb2bbfacfa9#T1"
+        ],
+        "hypothesis": "初始需求口径不完整，导致回答只能给宽泛参考价而非可执行报"
+      },
+      "session_id": "6937ab8a-0d28-8326-a3cc-dbb2bbfacfa9"
+    },
+    {
+      "action_ref": "在生成答案前强制调用uae-",
+      "created_at": "2025-12-11T08:28:49.643082+00:00",
+      "labels": [
+        "业务咨询"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "693a8091-eae0-8332-974d-0f7564d51da3#T1"
+        ],
+        "hypothesis": "系统未识别到业务关键词触发条件,导致Skill调用链断裂"
+      },
+      "session_id": "693a8091-eae0-8332-974d-0f7564d51da3"
+    },
+    {
+      "action_ref": "先问2个最小澄清项（微波炉功",
+      "created_at": "2025-12-13T08:26:49.793275+00:00",
+      "labels": [
+        "低约束输入"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "693d2343-a0f8-8329-ade2-5acaffeefa37#T1"
+        ],
+        "hypothesis": "用户输入约束不足，触发助手采用默认模板化回答而非定制化诊"
+      },
+      "session_id": "693d2343-a0f8-8329-ade2-5acaffeefa37"
+    },
+    {
+      "action_ref": "先输出简短确认句（'您是指阿",
+      "created_at": "2025-12-14T10:41:27.571981+00:00",
+      "labels": [
+        "拼写纠错未确认"
+      ],
+      "mechanism": {
+        "confidence": 0.95,
+        "evidence_refs": [
+          "693e9451-ac6c-8325-8c03-6c971ec020b3#T1"
+        ],
+        "hypothesis": "助手在输入纠错后未进行确认，直接进入深度输出模式"
+      },
+      "session_id": "693e9451-ac6c-8325-8c03-6c971ec020b3"
+    },
+    {
+      "action_ref": "在首轮响应前插入需求澄清问题",
+      "created_at": "2025-12-15T08:25:42.594555+00:00",
+      "labels": [
+        "需求澄清不足"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "693fc598-3edc-8327-924f-065849b85e28#T1"
+        ],
+        "hypothesis": "系统默认用户需求已完整表达，直接进入解决方案生成模式，跳"
+      },
+      "session_id": "693fc598-3edc-8327-924f-065849b85e28"
+    },
+    {
+      "action_ref": "在生成完整内容前,先输出结构",
+      "created_at": "2025-12-15T08:32:44.852786+00:00",
+      "labels": [
+        "单轮完成"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "693fc788-2f60-8329-b5f8-84520afca23e#T1"
+        ],
+        "hypothesis": "用户 prompt 质量高(75分)且结构完整,导致 a"
+      },
+      "session_id": "693fc788-2f60-8329-b5f8-84520afca23e"
+    },
+    {
+      "action_ref": "先用4个澄清项锁边界：受众角",
+      "created_at": "2025-12-15T15:58:23.493807+00:00",
+      "labels": [
+        "需求逐轮收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69402ff4-be6c-832b-bd4c-e9520b0adcc6#T1"
+        ],
+        "hypothesis": "用户真实需求是“可执行优先级”而非“更长内容”，所以问题"
+      },
+      "session_id": "69402ff4-be6c-832b-bd4c-e9520b0adcc6"
+    },
+    {
+      "action_ref": "先发1句范围确认：要“官方已",
+      "created_at": "2025-12-16T05:55:54.947084+00:00",
+      "labels": [
+        "短提示驱动"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6940f461-f21c-8328-aac0-6598e3543ff9#T1"
+        ],
+        "hypothesis": "用户输入过短导致助手采用“先给全景、再主动加深”的默认策"
+      },
+      "session_id": "6940f461-f21c-8328-aac0-6598e3543ff9"
+    },
+    {
+      "action_ref": "首轮先输出并要求确认“四元约",
+      "created_at": "2025-12-18T05:55:28.957953+00:00",
+      "labels": [
+        "口径漂移"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6943974f-9348-832c-908b-e19d88c78d59#T1"
+        ],
+        "hypothesis": "核心机制是“主体与受众未在开局锁定”，导致同一内容在政府"
+      },
+      "session_id": "6943974f-9348-832c-908b-e19d88c78d59"
+    },
+    {
+      "action_ref": "先给1句核心释义，再追加1个",
+      "created_at": "2025-12-18T19:50:48.933693+00:00",
+      "labels": [
+        "词义查询"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69445b10-2f84-8331-aa43-a3c16feed0a7#T1"
+        ],
+        "hypothesis": "输入过于简短且缺少语境，导致响应策略偏向“通用释义”而非"
+      },
+      "session_id": "69445b10-2f84-8331-aa43-a3c16feed0a7"
+    },
+    {
+      "action_ref": "先确认四项契约：目标受众、保",
+      "created_at": "2025-12-19T06:47:42.706477+00:00",
+      "labels": [
+        "需求升级"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6944f4f5-b67c-8325-aa6a-d23efd7bc963#T1"
+        ],
+        "hypothesis": "用户真实目标是“基于PPT批量产出可直接使用的正式文案”"
+      },
+      "session_id": "6944f4f5-b67c-8325-aa6a-d23efd7bc963"
+    },
+    {
+      "action_ref": "先用澄清性问题收敛范围('您",
+      "created_at": "2025-12-19T10:50:26.360904+00:00",
+      "labels": [
+        "过度展示能力"
+      ],
+      "mechanism": {
+        "confidence": 0.7,
+        "evidence_refs": [
+          "69452de8-0094-8328-bc6c-8b59ce255a29#T1"
+        ],
+        "hypothesis": "助手在第1轮过度展示能力清单而非聚焦当前任务边界,可能导"
+      },
+      "session_id": "69452de8-0094-8328-bc6c-8b59ce255a29"
+    },
+    {
+      "action_ref": "Assistant主动插入任",
+      "created_at": "2025-12-19T22:13:39.376125+00:00",
+      "labels": [
+        "任务管理缺失"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "6945ce08-44bc-8331-8860-5b570a7ab98a#T5"
+        ],
+        "hypothesis": "用户存在注意力分散或任务管理习惯缺失,在对话中按即时联想"
+      },
+      "session_id": "6945ce08-44bc-8331-8860-5b570a7ab98a"
+    },
+    {
+      "action_ref": "先输出“参数确认清单”再写正",
+      "created_at": "2025-12-23T09:57:32.357296+00:00",
+      "labels": [
+        "约束补齐驱动收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694a6727-ed34-8331-8744-0f210a77f90b#T1"
+        ],
+        "hypothesis": "会话能快速收敛的主因是关键业务约束在第2轮被补齐，直接提"
+      },
+      "session_id": "694a6727-ed34-8331-8744-0f210a77f90b"
+    },
+    {
+      "action_ref": "先执行3问锁边界：目标（评审",
+      "created_at": "2025-12-23T11:59:40.911041+00:00",
+      "labels": [
+        "范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694a842c-4548-832b-bd55-cbd7fadab75a#T1"
+        ],
+        "hypothesis": "需求边界未在首轮冻结，导致任务从“评审”扩展为“改写+定"
+      },
+      "session_id": "694a842c-4548-832b-bd55-cbd7fadab75a"
+    },
+    {
+      "action_ref": "先执行一次4项锁定：使用对象",
+      "created_at": "2025-12-23T20:45:40.601652+00:00",
+      "labels": [
+        "后置约束收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694aff73-9b98-8329-8ce3-b3d2932a5825#T1"
+        ],
+        "hypothesis": "初始任务定义了主题，但未一次性锁定交付约束，导致会话依赖"
+      },
+      "session_id": "694aff73-9b98-8329-8ce3-b3d2932a5825"
+    },
+    {
+      "action_ref": "立即进入“单线程模式”：每轮",
+      "created_at": "2025-12-25T04:58:34.776445+00:00",
+      "labels": [
+        "交互节奏错配"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694cc401-8a68-8329-a09e-b1eec5eb86f2#T1"
+        ],
+        "hypothesis": "早期沟通摩擦来自信息密度与用户期望推进方式不一致，而非目"
+      },
+      "session_id": "694cc401-8a68-8329-a09e-b1eec5eb86f2"
+    },
+    {
+      "action_ref": "插入“证据闸门”：先补齐3个",
+      "created_at": "2025-12-25T05:24:27.628475+00:00",
+      "labels": [
+        "营销诊断收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694cca23-bec4-832b-a4fe-91a629acc5e8#T12"
+        ],
+        "hypothesis": "高权威角色框架降低了决策摩擦，使用户更愿意连续给出关键信"
+      },
+      "session_id": "694cca23-bec4-832b-a4fe-91a629acc5e8"
+    },
+    {
+      "action_ref": "采用“定义+三选一澄清”模板",
+      "created_at": "2025-12-25T08:37:37.777460+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694cf7ca-7d18-8325-b302-3e3137419e7a#T1"
+        ],
+        "hypothesis": "由于用户输入过短且缺少意图约束，助手采用了默认的“定义先"
+      },
+      "session_id": "694cf7ca-7d18-8325-b302-3e3137419e7a"
+    },
+    {
+      "action_ref": "先发意图澄清三选一（A执照路",
+      "created_at": "2025-12-26T00:21:59.779010+00:00",
+      "labels": [
+        "范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694dd509-4164-8325-87e2-6047255cebf7#T1"
+        ],
+        "hypothesis": "主目标未被持续锁定，导致会话从“个人认证”扩展为“执业+"
+      },
+      "session_id": "694dd509-4164-8325-87e2-6047255cebf7"
+    },
+    {
+      "action_ref": "在第2次回答后追问:'看起来",
+      "created_at": "2025-12-26T12:27:25.114681+00:00",
+      "labels": [
+        "信息检索主导型对话"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "694e7f15-9ab0-8329-b871-1d2dce793b44#T1"
+        ],
+        "hypothesis": "助手被用户的连续简短指令触发了'快速响应模式',优先满足"
+      },
+      "session_id": "694e7f15-9ab0-8329-b871-1d2dce793b44"
+    },
+    {
+      "action_ref": "先声明清单边界（地域、时间、",
+      "created_at": "2025-12-27T07:16:05.065958+00:00",
+      "labels": [
+        "研究型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "694f879d-5434-8325-8ef4-96b2eaecb9cf#T1"
+        ],
+        "hypothesis": "用户核心目标是形成可执行的市场进入情报包，因此对信息形态"
+      },
+      "session_id": "694f879d-5434-8325-8ef4-96b2eaecb9cf"
+    },
+    {
+      "action_ref": "AI 主动追问三要素框架:'",
+      "created_at": "2025-12-29T04:46:32.548360+00:00",
+      "labels": [
+        "需求模糊"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "6952078b-b0b4-832b-a48f-96b7a08b0140#T2"
+        ],
+        "hypothesis": "用户对目标受众(营销团队)的心理状态与期待尚未形成清晰画"
+      },
+      "session_id": "6952078b-b0b4-832b-a48f-96b7a08b0140"
+    },
+    {
+      "action_ref": "在首轮输出末尾嵌入2-3个行",
+      "created_at": "2025-12-29T13:09:58.332660+00:00",
+      "labels": [
+        "单轮速查"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "69527d9e-f3fc-8329-ba6a-22461be4d79a#T1"
+        ],
+        "hypothesis": "用户采用速查模式，获得所需信息后即退出"
+      },
+      "session_id": "69527d9e-f3fc-8329-ba6a-22461be4d79a"
+    },
+    {
+      "action_ref": "先执行“锚点复述+单句确认”",
+      "created_at": "2025-12-30T11:17:33.802860+00:00",
+      "labels": [
+        "范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6953b4bd-5e48-8331-8429-e1ba0355d494#T2"
+        ],
+        "hypothesis": "助手的“编号菜单+默认展开”机制在用户短输入下放大了范围"
+      },
+      "session_id": "6953b4bd-5e48-8331-8429-e1ba0355d494"
+    },
+    {
+      "action_ref": "先执行两步校准：1）明确目标",
+      "created_at": "2026-01-01T17:43:49.418699+00:00",
+      "labels": [
+        "高抽象提示"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6956b240-9f2c-8325-90af-8ca9531bf49a#T2"
+        ],
+        "hypothesis": "“反常识+高权威视角”提示词持续驱动同一种叙事引擎，导致"
+      },
+      "session_id": "6956b240-9f2c-8325-90af-8ca9531bf49a"
+    },
+    {
+      "action_ref": "先执行一次分支对齐：复述候选",
+      "created_at": "2026-01-01T19:04:02.705993+00:00",
+      "labels": [
+        "探索式对话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6956c51d-9640-832e-99b6-d276d427efc3#T1"
+        ],
+        "hypothesis": "会话主导机制是用户的探索式分支切换，导致任务目标持续漂移"
+      },
+      "session_id": "6956c51d-9640-832e-99b6-d276d427efc3"
+    },
+    {
+      "action_ref": "在首次响应中插入元声明:'以",
+      "created_at": "2026-01-01T20:25:11.387318+00:00",
+      "labels": [
+        "角色扮演驱动输出模式"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "6956d7ce-3050-8333-a73b-e9cb40f9a56a#T1"
+        ],
+        "hypothesis": "特定角色设定('后人类超级智能体'+'多重文明共识')触"
+      },
+      "session_id": "6956d7ce-3050-8333-a73b-e9cb40f9a56a"
+    },
+    {
+      "action_ref": "执行“会话重签约”一句话确认",
+      "created_at": "2026-01-02T09:00:08.981983+00:00",
+      "labels": [
+        "轻度范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69578905-c150-8331-be17-c8bcc1316edc#T1"
+        ],
+        "hypothesis": "会话机制以“就地满足最新指令”为主，缺少跨主题重签约，导"
+      },
+      "session_id": "69578905-c150-8331-be17-c8bcc1316edc"
+    },
+    {
+      "action_ref": "在首次回答末尾自动附加3个续",
+      "created_at": "2026-01-03T05:23:39.600728+00:00",
+      "labels": [
+        "单轮终止"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "6958a7be-1744-8328-a2fd-7da27ebaf999#T1"
+        ],
+        "hypothesis": "系统将简短问句默认归类为「快速信息查询」而非「深度探索」"
+      },
+      "session_id": "6958a7be-1744-8328-a2fd-7da27ebaf999"
+    },
+    {
+      "action_ref": "先执行一次切换确认：提示“已",
+      "created_at": "2026-01-03T13:04:22.278082+00:00",
+      "labels": [
+        "多意图串行"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "695913c5-7a20-832d-bfe6-4ee1404f5e4a#T1"
+        ],
+        "hypothesis": "用户在同一会话中把助手当作通用检索入口，采用“单轮一个问"
+      },
+      "session_id": "695913c5-7a20-832d-bfe6-4ee1404f5e4a"
+    },
+    {
+      "action_ref": "启用“版本化行程”机制：输出",
+      "created_at": "2026-01-04T09:04:18.247552+00:00",
+      "labels": [
+        "结构化澄清"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "695a2cb7-c4f8-832e-a0a7-5931dc930e97#T1"
+        ],
+        "hypothesis": "前期高质量需求澄清提升了方案可执行性，但也为后续频繁增量"
+      },
+      "session_id": "695a2cb7-c4f8-832e-a0a7-5931dc930e97"
+    },
+    {
+      "action_ref": "先回显“当前可选项映射+当前",
+      "created_at": "2026-01-04T19:09:45.157709+00:00",
+      "labels": [
+        "主题漂移"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "695abae8-d200-8326-bc66-e722c8dc762e#T1"
+        ],
+        "hypothesis": "多选驱动的回答策略把会话从“查询事实”推向“方案共创”，"
+      },
+      "session_id": "695abae8-d200-8326-bc66-e722c8dc762e"
+    },
+    {
+      "action_ref": "插入1条范围确认：先给A“继",
+      "created_at": "2026-01-04T20:54:51.913704+00:00",
+      "labels": [
+        "范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "695ad37d-722c-8327-84c7-dd3e1d1b6715#T1"
+        ],
+        "hypothesis": "初始目标未被锁定为单一交付物，导致相邻业务主题持续并入同"
+      },
+      "session_id": "695ad37d-722c-8327-84c7-dd3e1d1b6715"
+    },
+    {
+      "action_ref": "先给一句最可能释义，再立即发",
+      "created_at": "2026-01-05T19:17:47.405616+00:00",
+      "labels": [
+        "单轮探索"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "695c0e3b-7e28-832c-9c6b-b8e9f00297a1#T1"
+        ],
+        "hypothesis": "输入过短且语境缺失，触发了助手的安全泛化策略（先去权威化"
+      },
+      "session_id": "695c0e3b-7e28-832c-9c6b-b8e9f00297a1"
+    },
+    {
+      "action_ref": "在返回核心答案后,追加1-2",
+      "created_at": "2026-01-06T22:31:05.868487+00:00",
+      "labels": [
+        "单轮完结型对话"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "695d8d11-45fc-8331-bb38-6eb0fca40474#T1"
+        ],
+        "hypothesis": "用户将对话系统当作即时查询引擎使用,每次提问仅期望获取单"
+      },
+      "session_id": "695d8d11-45fc-8331-bb38-6eb0fca40474"
+    },
+    {
+      "action_ref": "助手在执行第二个任务前主动确",
+      "created_at": "2026-01-07T07:23:37.208208+00:00",
+      "labels": [
+        "碎片化指令"
+      ],
+      "mechanism": {
+        "confidence": 0.82,
+        "evidence_refs": [
+          "695e09ee-f0c4-8330-819d-a08963c76c71#T1"
+        ],
+        "hypothesis": "用户处于多任务切换状态,将「公司介绍→翻译→业务提案」三"
+      },
+      "session_id": "695e09ee-f0c4-8330-819d-a08963c76c71"
+    },
+    {
+      "action_ref": "先发起任务切换确认：明确“检",
+      "created_at": "2026-01-08T09:32:33.977565+00:00",
+      "labels": [
+        "主题漂移"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "695f79a5-0108-8325-a668-ab640719debe#T1"
+        ],
+        "hypothesis": "用户在同一会话中连续发起不同微任务，造成原研究任务被中断"
+      },
+      "session_id": "695f79a5-0108-8325-a668-ab640719debe"
+    },
+    {
+      "action_ref": "Assistant应主动澄清",
+      "created_at": "2026-01-08T17:15:18.634048+00:00",
+      "labels": [
+        "对话态vs系统态认知偏差"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "695fe50f-ee9c-8325-b667-0832ae7703c3#T6"
+        ],
+        "hypothesis": "用户具备工程思维,从一开始就在「用对话界面设计一个系统」"
+      },
+      "session_id": "695fe50f-ee9c-8325-b667-0832ae7703c3"
+    },
+    {
+      "action_ref": "先用1句确认是否切换主任务，",
+      "created_at": "2026-01-12T11:41:02.489062+00:00",
+      "labels": [
+        "主题切换"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6964ddc2-60c0-8325-af51-483fd890e04d#T1"
+        ],
+        "hypothesis": "会话发生了显著主题切换，导致原始任务未被持续收敛到单一目"
+      },
+      "session_id": "6964ddc2-60c0-8325-af51-483fd890e04d"
+    },
+    {
+      "action_ref": "先发1句目标重置确认：是否切",
+      "created_at": "2026-01-12T12:31:19.595545+00:00",
+      "labels": [
+        "主题切换未重置"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6964e985-144c-832e-99e5-050758c76d28#T1"
+        ],
+        "hypothesis": "会话发生了用户主导的任务切换，但助手未执行显式“目标重置"
+      },
+      "session_id": "6964e985-144c-832e-99e5-050758c76d28"
+    },
+    {
+      "action_ref": "先发一条单句分流确认：是否切",
+      "created_at": "2026-01-12T14:05:16.364724+00:00",
+      "labels": [
+        "多意图串行"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6964ff50-ef90-8330-b30e-4dda196d9bcf#T1"
+        ],
+        "hypothesis": "会话主要由“串行微任务”驱动，而非单一主题深挖，导致主题"
+      },
+      "session_id": "6964ff50-ef90-8330-b30e-4dda196d9bcf"
+    },
+    {
+      "action_ref": "强制输出“结论 + 依据来源",
+      "created_at": "2026-01-13T08:06:37.113810+00:00",
+      "labels": [
+        "研究型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6965fcfb-9e0c-832e-9261-67305eb51eef#T1"
+        ],
+        "hypothesis": "用户采用“由宽到窄”的追问策略，推动会话自然进入行业细分"
+      },
+      "session_id": "6965fcfb-9e0c-832e-9261-67305eb51eef"
+    },
+    {
+      "action_ref": "在调用图像生成之前,先用文字",
+      "created_at": "2026-01-13T18:50:08.933879+00:00",
+      "labels": [
+        "探索性对话"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "696693ca-6ac8-8333-b448-80731a8a59ed#T1"
+        ],
+        "hypothesis": "用户正在测试ChatGPT对自我认知和人机关系的理解能力"
+      },
+      "session_id": "696693ca-6ac8-8333-b448-80731a8a59ed"
+    },
+    {
+      "action_ref": "先发1条最小澄清问题（如“偏",
+      "created_at": "2026-01-15T15:22:39.573351+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69690613-3dd8-832e-93f9-96d6ba21319d#T1"
+        ],
+        "hypothesis": "输入信息极短触发了助手的默认配方模板策略，而非先澄清需求"
+      },
+      "session_id": "69690613-3dd8-832e-93f9-96d6ba21319d"
+    },
+    {
+      "action_ref": "先发1句主题确认：\"你要切换",
+      "created_at": "2026-01-16T13:39:55.104672+00:00",
+      "labels": [
+        "主题切换未确认"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696a3f9f-4994-8327-bd9a-0ec60b390b6e#T1"
+        ],
+        "hypothesis": "发生了未显式管理的主题切换，造成原任务（茭白做法）未闭环"
+      },
+      "session_id": "696a3f9f-4994-8327-bd9a-0ec60b390b6e"
+    },
+    {
+      "action_ref": "启用“约束冻结卡”：先列出当",
+      "created_at": "2026-01-17T18:21:50.732538+00:00",
+      "labels": [
+        "需求反转"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696bd302-55a4-832c-926e-3eb06fbd25fb#T3"
+        ],
+        "hypothesis": "约束反转未被“冻结版本”机制吸收，导致命名空间反复重开。"
+      },
+      "session_id": "696bd302-55a4-832c-926e-3eb06fbd25fb"
+    },
+    {
+      "action_ref": "在第1轮响应中主动声明可用工",
+      "created_at": "2026-01-18T06:34:56.853794+00:00",
+      "labels": [
+        "需求澄清不足"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "696c7f0f-36a8-8330-be38-0999fc866e6b#T3"
+        ],
+        "hypothesis": "assistant在第3轮未调用图像生成工具导致输出为空"
+      },
+      "session_id": "696c7f0f-36a8-8330-be38-0999fc866e6b"
+    },
+    {
+      "action_ref": "在首轮固定追问4项：学习时限",
+      "created_at": "2026-01-19T10:12:11.049870+00:00",
+      "labels": [
+        "目标逐轮收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e0372-11c0-8332-b889-cdcd19cca205#T1"
+        ],
+        "hypothesis": "用户通过逐轮补充关键约束（背景与目标层级），显著提升了输"
+      },
+      "session_id": "696e0372-11c0-8332-b889-cdcd19cca205"
+    },
+    {
+      "action_ref": "先输出3层学习路线（概念层/",
+      "created_at": "2026-01-19T10:18:49.715116+00:00",
+      "labels": [
+        "单轮探索"
+      ],
+      "mechanism": {
+        "confidence": 0.79,
+        "evidence_refs": [
+          "696e04f4-3a80-832a-b871-b132bf2964aa#T1"
+        ],
+        "hypothesis": "用户需求是“加速掌握+可评审能力”，促使助手采用抽象度较"
+      },
+      "session_id": "696e04f4-3a80-832a-b871-b132bf2964aa"
+    },
+    {
+      "action_ref": "先发一个最小化需求采集清单（",
+      "created_at": "2026-01-19T13:13:49.418604+00:00",
+      "labels": [
+        "需求渐进收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e2ddc-3990-8332-a54a-7b4b3bc1fe53#T1"
+        ],
+        "hypothesis": "需求是“渐进式收敛”而非一次性定义，导致会话通过连续追问"
+      },
+      "session_id": "696e2ddc-3990-8332-a54a-7b4b3bc1fe53"
+    },
+    {
+      "action_ref": "先执行3问澄清：当前水平、可",
+      "created_at": "2026-01-19T16:43:27.316480+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e5ea6-7274-8332-bc2e-9062285bf6b3#T1"
+        ],
+        "hypothesis": "问题边界未收敛（起点、时长、目标产出未显式约束），导致回"
+      },
+      "session_id": "696e5ea6-7274-8332-bc2e-9062285bf6b3"
+    },
+    {
+      "action_ref": "启用阶段闸门：先输出“当前阶",
+      "created_at": "2026-01-19T16:49:00.224540+00:00",
+      "labels": [
+        "强协作契约"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e607a-470c-8329-967d-b122c656b268#T1"
+        ],
+        "hypothesis": "强协作契约降低了跑题概率，并促成了可控推进节奏。"
+      },
+      "session_id": "696e607a-470c-8329-967d-b122c656b268"
+    },
+    {
+      "action_ref": "先用1轮澄清并锁定输出契约：",
+      "created_at": "2026-01-19T18:21:35.388908+00:00",
+      "labels": [
+        "范围未收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e762d-5e68-8325-acf8-d6f96203118e#T1"
+        ],
+        "hypothesis": "问题范围过大且约束未显式化，触发了“先改写问题而非先给答"
+      },
+      "session_id": "696e762d-5e68-8325-acf8-d6f96203118e"
+    },
+    {
+      "action_ref": "先执行“5项约束采集”再给计",
+      "created_at": "2026-01-19T18:23:38.735978+00:00",
+      "labels": [
+        "目标工程化"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e76a7-0db8-8333-9f9d-532765786b87#T1"
+        ],
+        "hypothesis": "起始目标过于宏观，导致前期必须先做框架化与目标工程化，才"
+      },
+      "session_id": "696e76a7-0db8-8333-9f9d-532765786b87"
+    },
+    {
+      "action_ref": "AI 应主动确认:(1)目标",
+      "created_at": "2026-01-19T18:56:12.710718+00:00",
+      "labels": [
+        "探索式需求挖掘"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "696e7e21-d758-832f-b818-ace0b6b89b1f#T2"
+        ],
+        "hypothesis": "AI 在 turn 2-4 未能一次性理解'导出为 Wo"
+      },
+      "session_id": "696e7e21-d758-832f-b818-ace0b6b89b1f"
+    },
+    {
+      "action_ref": "先给固定访谈合同：总模块数、",
+      "created_at": "2026-01-19T20:01:54.257425+00:00",
+      "labels": [
+        "创意学习会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696e8daa-204c-8321-9701-214558714949#T1"
+        ],
+        "hypothesis": "会话范围在前段不断扩展，导致认知负担上升并引发中途校正需"
+      },
+      "session_id": "696e8daa-204c-8321-9701-214558714949"
+    },
+    {
+      "action_ref": "先执行1句范围重锚：确认目标",
+      "created_at": "2026-01-20T01:02:51.371553+00:00",
+      "labels": [
+        "任务域扩张"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696ed429-c95c-8324-955e-ab28bb26ae49#T1"
+        ],
+        "hypothesis": "会话出现“任务域连续扩张”，但缺少显式范围重锚，导致标题"
+      },
+      "session_id": "696ed429-c95c-8324-955e-ab28bb26ae49"
+    },
+    {
+      "action_ref": "先返回“关系维度三选一确认”",
+      "created_at": "2026-01-20T15:02:59.949390+00:00",
+      "labels": [
+        "需求边界未显式化"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696f9912-11f8-8326-ba4b-8e49691ae19e#T1"
+        ],
+        "hypothesis": "用户输入过短且未声明判断标准，导致助手按默认讲解路径作答"
+      },
+      "session_id": "696f9912-11f8-8326-ba4b-8e49691ae19e"
+    },
+    {
+      "action_ref": "先执行最小诊断提问模板：设备",
+      "created_at": "2026-01-20T16:16:39.996699+00:00",
+      "labels": [
+        "信息不足触发泛化回答"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696faa53-aa08-8329-b823-de86af70fba8#T1"
+        ],
+        "hypothesis": "初始问题信息密度过低，触发了通用型而非诊断型回答路径，降"
+      },
+      "session_id": "696faa53-aa08-8329-b823-de86af70fba8"
+    },
+    {
+      "action_ref": "先执行一轮四项澄清（目标、地",
+      "created_at": "2026-01-20T18:35:37.633466+00:00",
+      "labels": [
+        "学习型咨询"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "696fcab1-e130-8325-826e-7c6a93d56154#T2"
+        ],
+        "hypothesis": "用户高频使用极短续问，触发助手默认“按上文自动补全并深挖"
+      },
+      "session_id": "696fcab1-e130-8325-826e-7c6a93d56154"
+    },
+    {
+      "action_ref": "第2轮起改为统一模板输出：按",
+      "created_at": "2026-01-21T13:49:38.532958+00:00",
+      "labels": [
+        "需求逐步细化"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6970d963-bf88-832e-8cc6-01d22d4516bf#T1"
+        ],
+        "hypothesis": "用户采用逐轮加约束的询问方式（范围→300→3000），"
+      },
+      "session_id": "6970d963-bf88-832e-8cc6-01d22d4516bf"
+    },
+    {
+      "action_ref": "先追问并锁定4个最小口径：时",
+      "created_at": "2026-01-21T16:00:01.664153+00:00",
+      "labels": [
+        "探索型会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6970f7f7-bbac-8332-b800-8e7b12e64f16#T1"
+        ],
+        "hypothesis": "需求约束不足导致助手采用“广覆盖”而非“高匹配”策略。"
+      },
+      "session_id": "6970f7f7-bbac-8332-b800-8e7b12e64f16"
+    },
+    {
+      "action_ref": "先执行一次“6项约束采集”再",
+      "created_at": "2026-01-21T21:04:20.348416+00:00",
+      "labels": [
+        "轻度范围蔓延"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69713f24-d3d0-8327-8337-56ef1ce35b43#T1"
+        ],
+        "hypothesis": "初始问题过宽且约束后置，导致通过连续追问逐步澄清，形成轻"
+      },
+      "session_id": "69713f24-d3d0-8327-8337-56ef1ce35b43"
+    },
+    {
+      "action_ref": "固定使用“逐行结果→计算过程",
+      "created_at": "2026-01-22T08:52:39.789838+00:00",
+      "labels": [
+        "话题切换"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6971e51b-d400-832d-8649-9500c8a1f99e#T1"
+        ],
+        "hypothesis": "核心机制是话题突变导致任务闭环中断：用户在首任务未明确验"
+      },
+      "session_id": "6971e51b-d400-832d-8649-9500c8a1f99e"
+    },
+    {
+      "action_ref": "先输出一版“目标-范围-验收",
+      "created_at": "2026-01-22T20:00:32.692925+00:00",
+      "labels": [
+        "分支选择驱动"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "697281df-5164-8330-ada7-2d6a7a2a460b#T3"
+        ],
+        "hypothesis": "编号分支交互显著降低了用户决策成本，是本次高效推进的主机"
+      },
+      "session_id": "697281df-5164-8330-ada7-2d6a7a2a460b"
+    },
+    {
+      "action_ref": "先输出一页“需求冻结卡片”（",
+      "created_at": "2026-01-23T10:30:16.065496+00:00",
+      "labels": [
+        "需求渐进收敛"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69734d00-013c-832e-afb3-14ecb3d5faab#T1"
+        ],
+        "hypothesis": "需求是在对话中逐步显化而非一次性定义，导致同一交付物被反"
+      },
+      "session_id": "69734d00-013c-832e-afb3-14ecb3d5faab"
+    },
+    {
+      "action_ref": "先问3个最小澄清问题（主要用",
+      "created_at": "2026-01-23T11:14:44.034400+00:00",
+      "labels": [
+        "单轮会话"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69735818-7874-832d-9061-7e9e9917aad8#T1"
+        ],
+        "hypothesis": "输入约束不足触发了“百科式对比”响应机制，导致答案偏全量"
+      },
+      "session_id": "69735818-7874-832d-9061-7e9e9917aad8"
+    },
+    {
+      "action_ref": "先返回5项澄清卡片（使用场景",
+      "created_at": "2026-01-23T12:29:23.937881+00:00",
+      "labels": [
+        "需求澄清不足"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "697369a2-a2ec-838c-98ad-d104a903abb9#T1"
+        ],
+        "hypothesis": "首轮未做结构化澄清，导致关键字段遗漏（Prompt本体）"
+      },
+      "session_id": "697369a2-a2ec-838c-98ad-d104a903abb9"
+    },
+    {
+      "action_ref": "先发起“目标分流确认”：A继",
+      "created_at": "2026-01-23T15:12:33.008079+00:00",
+      "labels": [
+        "多主题串行问答"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "69738fdb-b968-8329-a997-71d56e9a8590#T1"
+        ],
+        "hypothesis": "会话内发生显著主题漂移，导致标题/意图与后续轮次不一致，"
+      },
+      "session_id": "69738fdb-b968-8329-a997-71d56e9a8590"
+    },
+    {
+      "action_ref": "插入上下文切换确认提示：'我",
+      "created_at": "2026-01-23T21:33:09.329043+00:00",
+      "labels": [
+        "渐进式信息收集"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "6973e904-91e8-8327-8645-447a69f2d8d8#T1"
+        ],
+        "hypothesis": "渐进式信息披露触发了分层诊断机制"
+      },
+      "session_id": "6973e904-91e8-8327-8645-447a69f2d8d8"
+    },
+    {
+      "action_ref": "先执行“约束采集”而非直接润",
+      "created_at": "2026-01-24T11:31:54.428427+00:00",
+      "labels": [
+        "学习陪跑"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "6974ada6-de90-8331-bfe8-1bdf0b477c7e#T1"
+        ],
+        "hypothesis": "会话被收敛为“提示词润色任务”，而不是“学习机制落地任务"
+      },
+      "session_id": "6974ada6-de90-8331-bfe8-1bdf0b477c7e"
+    },
+    {
+      "action_ref": "立即执行降级策略：(1) 向",
+      "created_at": "2026-02-06T08:08:22.093Z",
+      "labels": [
+        "error_recovery_failure"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "723d497e-e9e1-4d18-bc34-c12613093ed0#T1"
+        ],
+        "hypothesis": "prompt 长度限制触发但缺少智能截断机制"
+      },
+      "session_id": "723d497e-e9e1-4d18-bc34-c12613093ed0"
+    },
+    {
+      "action_ref": "补齐缺失的自动化脚本层: (",
+      "created_at": "2026-01-27T22:50:39.700Z",
+      "labels": [
+        "自动化缺失"
+      ],
+      "mechanism": {
+        "confidence": 0.95,
+        "evidence_refs": [
+          "79fefb5c-715c-422b-9fe9-8e8b0282832b#T1"
+        ],
+        "hypothesis": "缺失自动化脚本(init_run.py/download"
+      },
+      "session_id": "79fefb5c-715c-422b-9fe9-8e8b0282832b"
+    },
+    {
+      "action_ref": "在初始轮次中通过 AskUs",
+      "created_at": "2026-02-06T09:55:57.769Z",
+      "labels": [
+        "配置构建"
+      ],
+      "mechanism": {
+        "confidence": 0.95,
+        "evidence_refs": [
+          "7c5bfd98-6281-402c-94bf-07a522cff996#T24"
+        ],
+        "hypothesis": "用户需要通过显式配置覆盖 Claude Code 的默认"
+      },
+      "session_id": "7c5bfd98-6281-402c-94bf-07a522cff996"
+    },
+    {
+      "action_ref": "返回结构化恢复指引：原因+3",
+      "created_at": "2026-01-20T13:07:11.503Z",
+      "labels": [
+        "入口阻断"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "8a9159ca-d477-45fc-a875-1ea567b36c59#T1"
+        ],
+        "hypothesis": "核心失败机制是资源门槛阻断（额度不足）导致任务在入口失败"
+      },
+      "session_id": "8a9159ca-d477-45fc-a875-1ea567b36c59"
+    },
+    {
+      "action_ref": "主动执行 README 可运",
+      "created_at": "2026-01-27T15:47:52.831Z",
+      "labels": [
+        "认知偏差"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "a4467d63-f095-4b8c-9dfe-180962ecfef7#T2"
+        ],
+        "hypothesis": "用户期望直接执行但发现缺失运行时组件"
+      },
+      "session_id": "a4467d63-f095-4b8c-9dfe-180962ecfef7"
+    },
+    {
+      "action_ref": "先建立三点验收卡：目标文件路",
+      "created_at": "2026-02-06T14:43:57.766Z",
+      "labels": [
+        "更新可见性缺口"
+      ],
+      "mechanism": {
+        "evidence_refs": [
+          "adb59fef-2b3f-4f39-b84f-e86610d96ed7#T1"
+        ],
+        "hypothesis": "前期未先锁定“更新完成”的验收口径（看哪里、看什么变化、"
+      },
+      "session_id": "adb59fef-2b3f-4f39-b84f-e86610d96ed7"
+    },
+    {
+      "action_ref": "在连续 2 次同类错误后，调",
+      "created_at": "2026-01-27T22:09:56.599Z",
+      "labels": [
+        "静默降级"
+      ],
+      "mechanism": {
+        "confidence": 0.85,
+        "evidence_refs": [
+          "c60c79c6-6d5e-4176-8428-0419833cfbc1#T25"
+        ],
+        "hypothesis": "Agent 的降级策略（跳过失败 URL）符合工程实践，"
+      },
+      "session_id": "c60c79c6-6d5e-4176-8428-0419833cfbc1"
+    },
+    {
+      "action_ref": "Agent 先输出:「我看到",
+      "created_at": "2026-02-06T09:11:25.817Z",
+      "labels": [
+        "context_anchoring_failure"
+      ],
+      "mechanism": {
+        "confidence": 0.8,
+        "evidence_refs": [
+          "d13507fe-54d0-4cef-9628-7f5aa54703a9#T7"
+        ],
+        "hypothesis": "Agent 缺少上下文锚定机制,在多项目环境中误判用户意"
+      },
+      "session_id": "d13507fe-54d0-4cef-9628-7f5aa54703a9"
+    },
+    {
+      "action_ref": "拆分输出：先给「任务概述 +",
+      "created_at": "2026-01-25T13:18:53.662Z",
+      "labels": [
+        "skill-execution:success"
+      ],
+      "mechanism": {
+        "confidence": 0.95,
+        "evidence_refs": [
+          "ed01f0fd-1797-4fd2-8113-1d099124e1e8#T5"
+        ],
+        "hypothesis": "Agent 执行了正确的冷启动协议：空日志 → 基线评估"
+      },
+      "session_id": "ed01f0fd-1797-4fd2-8113-1d099124e1e8"
+    },
+    {
+      "action_ref": "自动显示账户余额状态、充值入",
+      "created_at": "2026-01-20T13:08:19.256Z",
+      "labels": [
+        "account_error"
+      ],
+      "mechanism": {
+        "confidence": 0.75,
+        "evidence_refs": [
+          "f915c8ef-c8fa-42b7-89cb-064bf7e427bf#T1"
+        ],
+        "hypothesis": "系统在执行基础命令前先检查账户余额,余额不足时阻断所有操"
+      },
+      "session_id": "f915c8ef-c8fa-42b7-89cb-064bf7e427bf"
+    }
+  ],
+  "source_run_id": "incremental-rolling_all-time"
+}

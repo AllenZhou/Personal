@@ -1,0 +1,969 @@
+{
+  "generated_at": "2026-02-07T20:49:51.312756+00:00",
+  "invalid_count": 111,
+  "invalid_records": [
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "why[3].confidence must be number when present"
+      ],
+      "index": 0,
+      "session_id": "019c3475-94ae-7263-affe-c1c54a6712d9"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 1,
+      "session_id": "adb59fef-2b3f-4f39-b84f-e86610d96ed7"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 7,
+      "session_id": "019c2f6c-a13b-7cb3-b747-d5466262cd82"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 10,
+      "session_id": "019c27bc-35e3-75e1-82bf-da3b2022f06a"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[0].evidence must be non-empty list",
+        "why[1].confidence must be number when present",
+        "why[1].evidence must be non-empty list",
+        "why[2].confidence must be number when present",
+        "why[2].evidence must be non-empty list",
+        "why[3].confidence must be number when present",
+        "why[3].evidence must be non-empty list"
+      ],
+      "index": 11,
+      "session_id": "0e5519e3-1977-439f-9013-dc235ee63b43"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 12,
+      "session_id": "a1431878-0a5c-4a04-ab26-338155bc2d31"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 13,
+      "session_id": "3a9e455f-b34b-48a4-af07-361624619bdb"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 14,
+      "session_id": "019c06b9-45df-72b1-9b2e-fd4554ae652f"
+    },
+    {
+      "errors": [
+        "evidence[1].turn_id must be positive integer",
+        "evidence[0].turn_id must be positive integer",
+        "evidence[1].turn_id must be positive integer"
+      ],
+      "index": 17,
+      "session_id": "92de913d-02bf-4503-993d-68c99987fa5b"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 18,
+      "session_id": "e720ef88-e946-4924-b488-9fada5ac221c"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 19,
+      "session_id": "f0f17ebe-6134-4f1d-8c91-c1b16e2ea6ce"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 20,
+      "session_id": "276f24f0-e9a7-40b2-a8c8-64d26b966248"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present"
+      ],
+      "index": 21,
+      "session_id": "593c2c78-8696-419c-8298-a132f71324df"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 22,
+      "session_id": "0716662a-cf68-4293-b3f8-3bdfb89f7d2e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 23,
+      "session_id": "8a2baf38-d492-4f36-8ec3-d65f4f481295"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 24,
+      "session_id": "019c044d-2fcd-7933-b051-1c5db1aeab86"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 25,
+      "session_id": "019c044d-2f7c-7191-b4dd-1d4b23b84326"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "why[3].confidence must be number when present",
+        "why[4].confidence must be number when present"
+      ],
+      "index": 26,
+      "session_id": "dd81b6d7-ce60-404a-9acb-512b0c889e3f"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 27,
+      "session_id": "a3652328-e796-4812-aa7f-691893310608"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 30,
+      "session_id": "bdb4d837-ada3-4907-9633-c298a3262727"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 32,
+      "session_id": "40b3d09f-ff83-490d-99d9-0327ae4703ff"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 33,
+      "session_id": "d9d8b468-ef31-48d1-8c0f-fe19ddc6eea1"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "why[3].confidence must be number when present"
+      ],
+      "index": 35,
+      "session_id": "98323d5f-e89d-4b64-96a8-41847f4ac10d"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 36,
+      "session_id": "d45f19db-591c-4b6b-b564-e8fb85670b9a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 37,
+      "session_id": "b6c132b3-f147-41fe-90cf-ea6e27b70095"
+    },
+    {
+      "errors": [
+        "why[0].evidence must be non-empty list",
+        "why[1].evidence must be non-empty list",
+        "why[2].evidence must be non-empty list",
+        "why[3].evidence must be non-empty list"
+      ],
+      "index": 39,
+      "session_id": "b9303ce5-7a6b-4003-8f9b-c6fe20c53ceb"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 40,
+      "session_id": "6975e59a-f148-838d-bdfe-32bbf57f3375"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 41,
+      "session_id": "69751ab0-ff58-8331-a275-ef0a2157db54"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 42,
+      "session_id": "6974bb34-f330-832f-9c0b-46525f110a30"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 43,
+      "session_id": "6974b7d8-c850-8328-be59-a12056a5a446"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 44,
+      "session_id": "6974b173-1f38-832c-a4d7-5369fec77984"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 45,
+      "session_id": "6974b151-7044-832f-9e6e-b197ea7db324"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 46,
+      "session_id": "6974adfc-4d78-8330-9d1d-7a03946c0398"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 47,
+      "session_id": "6974ada6-de90-8331-bfe8-1bdf0b477c7e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 49,
+      "session_id": "69738fdb-b968-8329-a997-71d56e9a8590"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 50,
+      "session_id": "697369a2-a2ec-838c-98ad-d104a903abb9"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 51,
+      "session_id": "69735818-7874-832d-9061-7e9e9917aad8"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 52,
+      "session_id": "6970f7f7-bbac-8332-b800-8e7b12e64f16"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "evidence[0].turn_id must be positive integer"
+      ],
+      "index": 55,
+      "session_id": "696f243c-4318-832c-b07f-8b628ebe274b"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 56,
+      "session_id": "696ed429-c95c-8324-955e-ab28bb26ae49"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 57,
+      "session_id": "696e8daa-204c-8321-9701-214558714949"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 59,
+      "session_id": "696e76a7-0db8-8333-9f9d-532765786b87"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 60,
+      "session_id": "696e762d-5e68-8325-acf8-d6f96203118e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 61,
+      "session_id": "696e607a-470c-8329-967d-b122c656b268"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 62,
+      "session_id": "696e5ea6-7274-8332-bc2e-9062285bf6b3"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 63,
+      "session_id": "696e2ddc-3990-8332-a54a-7b4b3bc1fe53"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 64,
+      "session_id": "696e04f4-3a80-832a-b871-b132bf2964aa"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 65,
+      "session_id": "696e0372-11c0-8332-b889-cdcd19cca205"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 67,
+      "session_id": "696bd302-55a4-832c-926e-3eb06fbd25fb"
+    },
+    {
+      "errors": [
+        "evidence[0].turn_id must be positive integer",
+        "evidence[0].turn_id must be positive integer"
+      ],
+      "index": 68,
+      "session_id": "696a3f9f-4994-8327-bd9a-0ec60b390b6e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 69,
+      "session_id": "69690613-3dd8-832e-93f9-96d6ba21319d"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 71,
+      "session_id": "6965fcfb-9e0c-832e-9261-67305eb51eef"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 72,
+      "session_id": "6964ff50-ef90-8330-b30e-4dda196d9bcf"
+    },
+    {
+      "errors": [
+        "evidence[0].turn_id must be positive integer",
+        "evidence[0].turn_id must be positive integer",
+        "evidence[0].turn_id must be positive integer"
+      ],
+      "index": 73,
+      "session_id": "6964e985-144c-832e-99e5-050758c76d28"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "evidence[1].turn_id must be positive integer"
+      ],
+      "index": 74,
+      "session_id": "6964ddc2-60c0-8325-af51-483fd890e04d"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 76,
+      "session_id": "695f79a5-0108-8325-a668-ab640719debe"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 79,
+      "session_id": "695c0e3b-7e28-832c-9c6b-b8e9f00297a1"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 80,
+      "session_id": "695ad37d-722c-8327-84c7-dd3e1d1b6715"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "why[3].confidence must be number when present"
+      ],
+      "index": 81,
+      "session_id": "695abae8-d200-8326-bc66-e722c8dc762e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "evidence[0].turn_id must be positive integer"
+      ],
+      "index": 82,
+      "session_id": "695a2cb7-c4f8-832e-a0a7-5931dc930e97"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 83,
+      "session_id": "695913c5-7a20-832d-bfe6-4ee1404f5e4a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "evidence[0].turn_id must be positive integer",
+        "evidence[1].turn_id must be positive integer",
+        "evidence[2].turn_id must be positive integer",
+        "evidence[0].turn_id must be positive integer",
+        "evidence[1].turn_id must be positive integer",
+        "evidence[0].turn_id must be positive integer",
+        "evidence[1].turn_id must be positive integer"
+      ],
+      "index": 85,
+      "session_id": "69578905-c150-8331-be17-c8bcc1316edc"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 87,
+      "session_id": "6956c51d-9640-832e-99b6-d276d427efc3"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 88,
+      "session_id": "6956b240-9f2c-8325-90af-8ca9531bf49a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 89,
+      "session_id": "6953b4bd-5e48-8331-8429-e1ba0355d494"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 92,
+      "session_id": "694f879d-5434-8325-8ef4-96b2eaecb9cf"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[0].evidence must be non-empty list",
+        "why[1].confidence must be number when present",
+        "why[1].evidence must be non-empty list",
+        "why[2].confidence must be number when present",
+        "why[2].evidence must be non-empty list"
+      ],
+      "index": 94,
+      "session_id": "694cf7ca-7d18-8325-b302-3e3137419e7a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 95,
+      "session_id": "694cca23-bec4-832b-a4fe-91a629acc5e8"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 96,
+      "session_id": "694cc401-8a68-8329-a09e-b1eec5eb86f2"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 97,
+      "session_id": "694aff73-9b98-8329-8ce3-b3d2932a5825"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 98,
+      "session_id": "694a842c-4548-832b-bd55-cbd7fadab75a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 99,
+      "session_id": "694a6727-ed34-8331-8744-0f210a77f90b"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 102,
+      "session_id": "6944f4f5-b67c-8325-aa6a-d23efd7bc963"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 103,
+      "session_id": "69445b10-2f84-8331-aa43-a3c16feed0a7"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 104,
+      "session_id": "6943974f-9348-832c-908b-e19d88c78d59"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 105,
+      "session_id": "6940f461-f21c-8328-aac0-6598e3543ff9"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 106,
+      "session_id": "69402ff4-be6c-832b-bd4c-e9520b0adcc6"
+    },
+    {
+      "errors": [
+        "labels must be list when present"
+      ],
+      "index": 110,
+      "session_id": "693d2343-a0f8-8329-ade2-5acaffeefa37"
+    },
+    {
+      "errors": [
+        "evidence[2].turn_id must be positive integer",
+        "evidence[1].turn_id must be positive integer",
+        "evidence[1].turn_id must be positive integer"
+      ],
+      "index": 112,
+      "session_id": "6937ab8a-0d28-8326-a3cc-dbb2bbfacfa9"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 113,
+      "session_id": "6937090e-7a5c-832b-b8a4-d5ce3bf36e7e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 114,
+      "session_id": "69370116-1c50-8332-9c2b-c20bf93ec865"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "evidence[0].turn_id must be positive integer"
+      ],
+      "index": 115,
+      "session_id": "6936bffe-3e78-8329-b9a8-d20dcaa34012"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "why[3].confidence must be number when present"
+      ],
+      "index": 116,
+      "session_id": "6933e757-68a0-8328-8599-325c26ad55c8"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 117,
+      "session_id": "693352f8-1ed0-8332-b476-4bb1638b4985"
+    },
+    {
+      "errors": [
+        "evidence[0].turn_id must be positive integer"
+      ],
+      "index": 118,
+      "session_id": "69327cb6-fd24-8332-af60-c59204a05943"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 119,
+      "session_id": "693171e1-cf78-832d-ba4e-a5320592f456"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 120,
+      "session_id": "692fffb4-588c-8332-bc12-8cfb787e3f30"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 121,
+      "session_id": "692efcf6-fb94-8329-9081-2a410c86f7d8"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 123,
+      "session_id": "6929beb6-d704-8333-832f-468534006a8a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 124,
+      "session_id": "69281e1f-c174-832f-9d98-111cf59de544"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 125,
+      "session_id": "6926ccab-aa84-832f-a4a8-b4dac68721e4"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 128,
+      "session_id": "691c6f34-2854-8331-b804-7cdef94ceb26"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 130,
+      "session_id": "691c1e4b-34b8-8330-8e23-9f7ed63eb621"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 131,
+      "session_id": "691b2554-8010-832a-ba03-899471f98422"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 132,
+      "session_id": "6919a528-e668-832d-86a1-91baf7eaba7e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 135,
+      "session_id": "69135100-e850-832e-a293-298593c542ac"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present"
+      ],
+      "index": 136,
+      "session_id": "69131de3-41b0-8328-964f-9a540479fce6"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 137,
+      "session_id": "6912c92c-59a4-832b-ba27-c4acaee8c80a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present"
+      ],
+      "index": 139,
+      "session_id": "6910da0e-84a0-832a-9617-c30631538b88"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 140,
+      "session_id": "690dfe38-0ba0-8330-8a59-ca400ef0932b"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 142,
+      "session_id": "690c5df4-2e38-8330-82aa-3c3a52d29898"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 146,
+      "session_id": "690a0151-451c-832a-b59a-83f731ec29d7"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why must be non-empty list",
+        "how_to_improve must be non-empty list",
+        "summary must be non-empty string"
+      ],
+      "index": 148,
+      "session_id": "690360c4-2340-832f-85fc-ba7dbf932f9a"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 149,
+      "session_id": "69031aee-4058-8330-a817-ff6697f7ab84"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 152,
+      "session_id": "68fe7b1e-e7a4-832c-9718-21d378607d5e"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 154,
+      "session_id": "68fa4fca-acd8-8324-8b86-e395d2466dd4"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 155,
+      "session_id": "68f8d6df-8880-8330-9ac9-0796cacf047d"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 156,
+      "session_id": "68f89f85-ca1c-832b-b5f7-985a2fd20ec2"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list"
+      ],
+      "index": 158,
+      "session_id": "68f77c8a-c2b4-8332-b42c-508acae7522c"
+    },
+    {
+      "errors": [
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present"
+      ],
+      "index": 159,
+      "session_id": "68f72c93-3638-832f-a92f-3d9c9b8d588c"
+    },
+    {
+      "errors": [
+        "what_happened must be non-empty list",
+        "why[0].confidence must be number when present",
+        "why[1].confidence must be number when present",
+        "why[2].confidence must be number when present",
+        "why[3].confidence must be number when present",
+        "why[4].confidence must be number when present",
+        "why[5].confidence must be number when present"
+      ],
+      "index": 160,
+      "session_id": "68f7289c-958c-8326-9944-f669628c44b4"
+    }
+  ],
+  "run_id": "backfill-20260207T184555Z",
+  "schema_version": "diagnose-invalid-session-mechanisms.v1"
+}

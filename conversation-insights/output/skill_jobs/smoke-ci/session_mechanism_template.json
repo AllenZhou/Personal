@@ -1,0 +1,43 @@
+{
+  "run_id": "smoke-ci",
+  "schema_version": "session-mechanism-batch.v1",
+  "sessions": [
+    {
+      "created_at": "2026-02-05T20:09:34.267Z",
+      "generated_by": {
+        "engine": "manual",
+        "generated_at": "2026-02-06T22:55:17.729822+00:00",
+        "model": "skill",
+        "provider": "manual",
+        "run_id": "smoke-ci"
+      },
+      "how_to_improve": [
+        {
+          "action": "",
+          "expected_gain": "",
+          "trigger": "",
+          "validation_window": ""
+        }
+      ],
+      "labels": [],
+      "schema_version": "session-mechanism.v1",
+      "session_id": "019c2f6c-a13b-7cb3-b747-d5466262cd82",
+      "summary": "",
+      "week": "2026-W06",
+      "what_happened": [],
+      "why": [
+        {
+          "confidence": 0.0,
+          "evidence": [
+            {
+              "session_id": "019c2f6c-a13b-7cb3-b747-d5466262cd82",
+              "snippet": "# Context from my IDE setup: ## Active file: dmcc_scraper.py ## Open tabs: - dmcc_scraper.py: dmcc_scraper.py - agent-system-design.md: agent-system-design.md #",
+              "turn_id": 1
+            }
+          ],
+          "hypothesis": ""
+        }
+      ]
+    }
+  ]
+}

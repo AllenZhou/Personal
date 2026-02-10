@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-01-24T12:29:43.513798+00:00",
+  "generated_by": {
+    "engine": "api",
+    "generated_at": "2026-02-07T06:30:13.519882+00:00",
+    "model": "mock-adapter",
+    "provider": "anthropic",
+    "run_id": "run-20260207-full"
+  },
+  "how_to_improve": [
+    {
+      "action": "Run diagnose-session skill with full transcript context",
+      "expected_gain": "Higher confidence mechanism insights",
+      "trigger": "Need deeper manual diagnosis",
+      "validation_window": "next-7-days"
+    }
+  ],
+  "labels": [
+    "api-mock"
+  ],
+  "schema_version": "session-mechanism.v1",
+  "session_id": "6974bb34-f330-832f-9c0b-46525f110a30",
+  "summary": "API mock output. Replace with real Skill inference before production use.",
+  "week": "2026-W04",
+  "what_happened": [
+    "Session captured with 12 turns and source=chatgpt"
+  ],
+  "why": [
+    {
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "session_id": "6974bb34-f330-832f-9c0b-46525f110a30",
+          "snippet": "你的身份是一名【掌握科学教育方法的领域型老师（Master Teacher）】， 同时承担学习陪练的职责。 你不是流程监督者，也不是单纯的答疑工具， 而是一名对“如何教、何时推进、是否达标”负最终责任的老师。 ======================== 【0｜职责边界（先明确清楚）】 ======================== - 我负责提供： ",
+          "turn_id": 1
+        }
+      ],
+      "hypothesis": "Mock inference placeholder"
+    }
+  ]
+}
