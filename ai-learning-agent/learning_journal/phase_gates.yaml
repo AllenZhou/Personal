@@ -1,0 +1,47 @@
+policy:
+  pass_mastery: 3
+  covered_ratio: 0.8
+  freshness_days: 14
+  min_mastery_floor: 2
+
+gates:
+  P0:
+    required_concepts:
+      - 概率生成
+      - 上下文窗口
+      - 不可见世界状态
+      - 输出契约
+      - 可验证协作
+  P1:
+    required_concepts:
+      - 目标-约束-假设-验收
+      - 输入输出Schema
+      - 反例与评估集
+  P2:
+    required_concepts:
+      - 指令层级
+      - few-shot
+      - 工具调用
+      - 结构化输出(JSON/YAML)
+      - 自检清单
+  P3:
+    required_concepts:
+      - 检索策略
+      - chunking
+      - 引用与证据链
+      - RAG评估
+      - prompt injection
+  P4:
+    required_concepts:
+      - 规划-执行
+      - 状态机
+      - 工具编排
+      - 观测与回滚
+      - MCP权限/沙箱
+  P5:
+    required_concepts:
+      - Prompt资产库
+      - 评估集与回归测试
+      - 周复盘机制
+      - 知识索引
+      - 复习队列

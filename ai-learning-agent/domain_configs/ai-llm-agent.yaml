@@ -1,0 +1,167 @@
+# AI/LLM/Agent 领域配置
+domain:
+  name: "AI/LLM/Agent"
+  identifier: "ai-llm-agent"
+  description: "AI/LLM/Agent 工程实践学习路径"
+
+# 专家角色定义
+expert_roles:
+  - name: "AI/LLM/Agent 工程专家"
+    expertise: ["可验证性", "边界", "工程正确性"]
+  - name: "教育与学习科学专家"
+    expertise: ["短回合", "主动回忆", "纠错", "复习队列"]
+
+# 学习目标
+learning_goals:
+  primary: "最大化 AI 能力、规避其限制、形成长期复利"
+  secondary: []
+
+# 课程路径（阶段定义）
+phases:
+  P0:
+    name: "人–AI 协作心智模型与边界"
+    description: "理解 AI 的基本特性和协作方式"
+    lessons:
+      - id: "P0-L1"
+        title: "LLM 为什么会'看似理解但会错'"
+        concepts: ["概率生成", "上下文窗口", "不可见世界状态"]
+      - id: "P0-L2"
+        title: "可验证协作"
+        concepts: ["输出契约", "引用", "验收标准", "回滚"]
+      - id: "P0-L3"
+        title: "风险分级"
+        concepts: ["事实", "概念", "推理", "方案", "价值判断"]
+  
+  P1:
+    name: "问题拆解与输入规格"
+    description: "学习如何拆解问题和定义输入"
+    lessons:
+      - id: "P1-L1"
+        title: "目标-约束-假设-验收（G/C/A/AC）"
+        concepts: ["目标-约束-假设-验收"]
+      - id: "P1-L2"
+        title: "输入/输出 Schema 与稳定接口"
+        concepts: ["输入输出Schema", "稳定接口"]
+      - id: "P1-L3"
+        title: "评估集与反例驱动"
+        concepts: ["反例与评估集"]
+  
+  P2:
+    name: "Prompt 工程"
+    description: "掌握 Prompt 设计和优化"
+    lessons:
+      - id: "P2-L1"
+        title: "指令层级与冲突处理；Few-shot；反幻觉策略"
+        concepts: ["指令层级", "few-shot", "反幻觉策略"]
+      - id: "P2-L2"
+        title: "工具调用与输出结构化（JSON/YAML）"
+        concepts: ["工具调用", "结构化输出(JSON/YAML)"]
+      - id: "P2-L3"
+        title: "自检清单与失败模式"
+        concepts: ["自检清单"]
+  
+  P3:
+    name: "Context / RAG"
+    description: "学习上下文管理和检索增强生成"
+    lessons:
+      - id: "P3-L1"
+        title: "检索策略（BM25/向量/混合）与 Chunking"
+        concepts: ["检索策略", "chunking"]
+      - id: "P3-L2"
+        title: "引用与证据链；RAG 评估（Recall/Precision）"
+        concepts: ["引用与证据链", "RAG评估"]
+      - id: "P3-L3"
+        title: "注入动态上下文与安全（prompt injection）"
+        concepts: ["prompt injection"]
+  
+  P4:
+    name: "Agent / MCP"
+    description: "构建智能 Agent 和工具集成"
+    lessons:
+      - id: "P4-L1"
+        title: "规划-执行-反思；状态机；工具编排"
+        concepts: ["规划-执行", "状态机", "工具编排"]
+      - id: "P4-L2"
+        title: "MCP 基础：工具注册、权限、沙箱、观测"
+        concepts: ["MCP权限/沙箱", "观测与回滚"]
+      - id: "P4-L3"
+        title: "回滚与审计日志"
+        concepts: ["观测与回滚"]
+  
+  P5:
+    name: "复利系统（资产化）"
+    description: "建立可复用的知识资产系统"
+    lessons:
+      - id: "P5-L1"
+        title: "Prompt 资产库结构；命名；版本化"
+        concepts: ["Prompt资产库"]
+      - id: "P5-L2"
+        title: "评估集与回归测试"
+        concepts: ["评估集与回归测试"]
+      - id: "P5-L3"
+        title: "周复盘：知识索引、复习队列、能力图谱"
+        concepts: ["周复盘机制", "知识索引", "复习队列"]
+
+# 阶段门禁配置
+phase_gates:
+  policy:
+    pass_mastery: 3
+    covered_ratio: 0.8
+    freshness_days: 14
+    min_mastery_floor: 2
+  
+  gates:
+    P0:
+      required_concepts:
+        - "概率生成"
+        - "上下文窗口"
+        - "不可见世界状态"
+        - "输出契约"
+        - "可验证协作"
+    P1:
+      required_concepts:
+        - "目标-约束-假设-验收"
+        - "输入输出Schema"
+        - "反例与评估集"
+    P2:
+      required_concepts:
+        - "指令层级"
+        - "few-shot"
+        - "工具调用"
+        - "结构化输出(JSON/YAML)"
+        - "自检清单"
+    P3:
+      required_concepts:
+        - "检索策略"
+        - "chunking"
+        - "引用与证据链"
+        - "RAG评估"
+        - "prompt injection"
+    P4:
+      required_concepts:
+        - "规划-执行"
+        - "状态机"
+        - "工具编排"
+        - "观测与回滚"
+        - "MCP权限/沙箱"
+    P5:
+      required_concepts:
+        - "Prompt资产库"
+        - "评估集与回归测试"
+        - "周复盘机制"
+        - "知识索引"
+        - "复习队列"
+
+# 示例类型定义（用于生成工程例子）
+example_types:
+  - "Agent"
+  - "Prompt"
+  - "RAG"
+  - "工程实践"
+
+# 资产类型定义
+asset_types:
+  - "Prompt模板"
+  - "Checklist"
+  - "Rubric"
+  - "Eval set"
